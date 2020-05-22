@@ -421,18 +421,22 @@
     .hover-top{
         padding-right: 0%;
         padding-bottom: 0%;
+    
     }
     .hover-bot{
           padding-left:0%;
      }
     .hov-title{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 500;
+        padding-bottom: 5%;
     }
     .hov-txt{
-        font-size: 20px;
-        line-height:25px;
+        font-size: 15px;
+        line-height:20px;
     }
+
+
 
 }                      
 
