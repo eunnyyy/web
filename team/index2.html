@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/master.css">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/normal.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -69,14 +70,14 @@
                         식물의 성장, 고객의 니즈에 따른 유연한 변화 대응을 가능하도록 합니다.<br>
                         조화를 통한 식물공간 디자인을 이곳에서 경험하시길 바랍니다.</p>
                 </div>
-                <div class="design-right">
+                <div class="design-right" data-aos="fade-down">
                     <div class="circle circle1"></div>
                     <p>디자인 컨셉</p>
                 </div>
             </div>
 
             <div class="act">
-                <div class="act-left">
+                <div class="act-left" data-aos="fade-down">
                     <p>빌리지 소개</p>
                     <div class="circle circle2"></div>
                 </div>
@@ -105,6 +106,10 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+
+    // sec2 효과
+    AOS.init();
+
 	/**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
 	if (jQuery(window).width() > 0) {
     jQuery(window).on("scroll",function(ev){
