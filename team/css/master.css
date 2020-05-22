@@ -298,8 +298,8 @@
         padding-top: 50px;
     }
     .circle{
-    width: 15px;
-    height:15px;
+         width: 15px;
+         height:15px;
     }
     .design-left{
         width:100%;
@@ -330,22 +330,6 @@
 }                      
 
 @media(max-width:1100px){
-    /* .top-bg1{
-        width:100%;
-        margin-right: 8.5%;
-    }
-    .top-bg1 p{
-        color:#f2f5e2;
-        line-height:60px;
-        font-family: 'MapoFlowerIsland'; 
-        font-size:40px;
-        padding-left: 10%;
-        padding-top: 10%;
-        padding-bottom: 15%;
-    }
-    .top-bg2{
-        display: none;
-    } */
     .menu{
         display: block;
     }
@@ -356,35 +340,7 @@
         justify-content: space-between;
     }
 
-    /*sec2*/
-    /* .design-left{
-        width:100%;
-    }
-    .design-right{
-        display: flex;
-        flex-direction: column;
-        width: 10%;   
-    }
-    .design-left p{
-        font-size: 20px;
-        line-height: 38px;
-    }
-    .act-right p{
-        width:100%;
-        text-align: left;
-        font-size: 20px;
-        line-height: 38px;
-    }
-    .act-right{
-        width:100%;
-    }   
-    .act-left{
-        display: flex;
-        flex-direction: column-reverse;
-        width: 10%;
-    }
-     */
-
+   
 
 }      
 
