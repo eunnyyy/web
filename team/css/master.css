@@ -434,6 +434,10 @@
     .hov-txt{
         font-size: 15px;
         line-height:20px;
+
+    }
+    .text{
+        width:80%;
     }
 
 
