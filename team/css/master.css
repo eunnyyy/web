@@ -245,7 +245,7 @@
 
 @media(max-width:767px){
     .top-bg1{
-        width:20%;
+        width:30%;
         /* margin-right: 8.5%; */
     }
     .top-bg1 p{
@@ -258,7 +258,8 @@
         padding-bottom: 15%;
     }
     .top-bg2{
-        width:80%;
+        width:70%;
+        height: 400px;
     }
 
     .menu{
