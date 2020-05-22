@@ -1,0 +1,363 @@
+@font-face { font-family: 'MapoFlowerIsland'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+#section01{
+    width:100%;  background:#f2f5e2;}
+
+
+#section02{
+	width:100%;height:1500px; background:#f2f5e2;}
+	
+#section03{
+	width:100%; height:1500px; background:#9F0;}
+	
+#section04{
+	width:100%; height:1500px; background:#F33;}
+	
+#section05{ 
+	width:100%; height:1500px; background:#FC0;}
+
+.menu_box{
+    width:100%; 
+    height:120px; 
+    color:#fff; 
+    position:fixed; 
+    transition:all 0.5s ease-in-out; 
+    -webkit-transition:all 0.5s ease-in-out; 
+    z-index: 999;
+	display: flex;
+	justify-content: space-between;
+    }
+	
+	.fixed{
+        background:#fff; 
+        transition:all 0.5s ease-in-out; 
+        -webkit-transition:all 0.5s ease-in-out;
+    }
+
+	.logo{
+        width:100px;
+        padding-left: 8.5%;
+        padding-top: 10px;
+    }
+		.menu_box{
+            display: flex;
+        }
+		.navi{
+            margin-left: auto;            
+        }
+		.menu_box > ul{
+            float:right; 
+            padding:30px 0 0 0;
+            margin-right: 8.5%;           
+            }
+			
+			.menu_box li{
+                float:left; 
+                text-align:center; 
+                width:150px; 
+            }
+				
+				.menu_box li a{
+                    text-decoration:none; 
+                    color:#000; 
+                    line-height:100px; 
+                    font-family: 'MapoFlowerIsland'; 
+                    font-size:25px;}
+					
+					/**메뉴부분 마우스 오버시 색상 **/
+					.menu_box li a:hover{
+						border-top:2px solid #FFF; padding-top:40px; color:#FFF;}
+						
+					.menu_box li:nth-child(2) a:hover{
+						border-top:2px solid #6FF; padding-top:40px; color:#6FF;}
+						
+					.menu_box li:nth-child(3) a:hover{
+						border-top:2px solid #9F0; padding-top:40px; color:#9F0;}
+						
+					.menu_box li:nth-child(4) a:hover{
+						border-top:2px solid #ccc; padding-top:40px; color:#ccc;}
+						
+					.menu_box li:nth-child(5) a:hover{
+                        border-top:2px solid #FC0; padding-top:40px; color:#FC0;}
+
+
+.top{
+    width:100%;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    padding-top: 120px;
+    
+}
+.top-bg1{
+    width:20%;
+    display: flex;
+    background: #cace79;
+    margin-left: 8.5%;
+}
+.top-bg2{
+    width:80%;
+    height: 800px;
+    background: url(../images/title_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 8.5%;
+
+}
+
+.top-bg1 p{
+    color:#f2f5e2;
+    line-height:80px;
+    font-family: 'MapoFlowerIsland'; 
+    font-size:50px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+/* section02 */
+.intro-top{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+.intro-bot{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+.intro-title p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:80px; 
+}
+.intro-right p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:80px; 
+    padding-left: 3%;
+}
+.intro-right{
+    display: flex;
+    width: 100%;
+}
+
+.intro-title2{
+    display: flex;
+    width: 50%;
+}
+.box{
+    width: 50%;
+    border-top: 2px solid #7b9b58;
+    display: flex;
+    margin-top: 40px;
+}
+.intro-bot{
+    padding-top: 3%;
+    display: block;
+}
+.design{
+    display: flex;
+}
+.design-left{
+    display: flex;
+    width:60%;
+}
+.design-right{
+    display: flex;
+    width:40%;
+    align-items: center;
+}
+.act{
+    display: flex;
+    padding-top: 5%;
+}
+.act-left{
+    display: flex;
+    width:40%;
+    align-items: center;
+}
+.act-right{
+    display: flex;
+    width:60%;
+}
+
+.design-left p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:40px; 
+}
+.act-right p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:40px; 
+    text-align: right;
+}
+
+
+/*sec2 원*/
+.circle{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: #f2f5e2;
+    border: 2px solid #7b9b58;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.design-right p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color:  #7b9b58;
+}
+.act-left p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color:  #7b9b58;
+}
+
+
+/* media */
+@media (min-width: 576px){ 
+    
+}
+
+@media (min-width: 768px){
+  
+}
+@media (min-width: 992px){
+   
+}
+@media (min-width: 1200px){
+    
+}
+
+@media(max-width:767px){
+    .menu{
+        display: block;
+    }
+    .navi{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    /*sec2*/
+    .intro-top p{
+        font-size: 30px;
+        font-weight: 600;
+    }      
+    .design-right p{
+        line-height: 60px;
+        padding-bottom: 50px;
+
+    }
+    .act-left p{
+        line-height: 60px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    .act-left{
+        padding-right: 5%;
+    }
+    .design-right{
+        padding-left:  5%;
+        padding-top: 50px;
+    }
+    
+
+}                      
+
+@media(max-width:1100px){
+    .top-bg1{
+        width:100%;
+        margin-right: 8.5%;
+    }
+    .top-bg1 p{
+        color:#f2f5e2;
+        line-height:60px;
+        font-family: 'MapoFlowerIsland'; 
+        font-size:40px;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .top-bg2{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .navi{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    /*sec2*/
+    .design-left{
+        width:100%;
+    }
+    .design-right{
+        display: flex;
+        flex-direction: column;
+        width: 14%;   
+    }
+    .design-left p{
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .act-right p{
+        width:100%;
+        text-align: left;
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .act-right{
+        width:100%;
+    }
+    
+    .act-left{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 14%;
+    }
+    
+
+
+}      
+
+@media(max-width:1700px){
+    .box{
+        display: none;
+    }
+    .intro-title2{
+        width:100%;
+    }
+    /* .design-right{
+        display: none;
+    }
+    .act-left{
+        display: none;
+    } */
+    /* .act-right{
+        width:100%;
+    }
+    .act-right p{
+        width:100%;
+    } */
+    
+
+}
+
+
