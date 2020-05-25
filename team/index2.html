@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/normal.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery.bxslider.css">
 
 </head>
 
@@ -22,7 +23,7 @@
 <div id="section01">
 <nav>
     <div class="menu_box">
-		<div class="logo"><a href="#section01"><img src="images/logo.png"></a></div>		
+		<div class="logo"><a href="#section01"><img src="images/logo80.png"></a></div>		
         <ul class="navi">
             <li><a href="#section01">메인</a></li>
             <li><a href="#section02">소개</a></li>
@@ -102,8 +103,8 @@
 <div class="mid">
     <div class="hover-img hover-top">
 
-        <div class="container hov-margin">
-            <img src="images/img3-1.jpg" alt="img3-1" class="image">
+        <div class="container hov-margin hov1">
+            <img src="images/img3--1.jpg" alt="img3-1" class="image">
             <div class="overlay">
               <div class="text">
                   <p class="hov-title">디자인 정원</p>
@@ -112,8 +113,8 @@
             </div>
           </div>
       
-        <div class="container">
-            <img src="images/img3-2.jpg" alt="img3-2" class="image">
+        <div class="container hov2">
+            <img src="images/img3--2.jpg" alt="img3-2" class="image">
             <div class="overlay">
               <div class="text">
                 <p class="hov-title">카페 더 조은</p>
@@ -126,8 +127,8 @@
 
     <div class="hover-img hover-bot">
 
-        <div class="container hov-margin">
-            <img src="images/img3-6.jpg" alt="" class="image">
+        <div class="container hov-margin hov3">
+            <img src="images/img3--3.jpg" alt="" class="image">
             <div class="overlay">
               <div class="text">
                 <p class="hov-title">도서 공간</p>
@@ -137,8 +138,8 @@
         </div>
          
       
-        <div class="container">
-            <img src="images/img3-4.jpg" alt="img3-4" class="image">
+        <div class="container ho">
+            <img src="images/img3--4.jpg" alt="img3-4" class="image">
             <div class="overlay">
               <div class="text">
                 <p class="hov-title">체험 수업</p>
@@ -153,7 +154,27 @@
 </div>
 <!--section03 end-->
 
-<div id="section04"></div>
+<div id="section04">
+    <div class="gallery-title">
+        <p>갤러리</p>
+    </div>
+
+    <div class="slider-container">
+        <div class="bxslider">
+		    <img src="images/slider4--2.jpg" alt="">
+		    <img src="images/slider4--5.jpg" alt="">
+		    <img src="images/slider4--3.jpg" alt="">
+		    <img src="images/slider4--4.jpg" alt="">
+            <img src="images/slider4--1.jpg" alt="">
+            <img src="images/slider4--7.jpg" alt="">
+            <img src="images/slider4--6.jpg" alt="">
+            <img src="images/slider4--8.jpg" alt="">
+	    </div>
+    </div>
+
+
+
+</div>
 <!--section04 end-->
 
 <div id="section05"></div>
@@ -161,8 +182,21 @@
 
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
 <script>
-   
+   $(document).ready(function(){
+		$('.bxslider').bxSlider({
+			mode: 'horizontal',
+			moveSlides: 1,
+			infiniteLoop: true,
+			slideWidth: 1000,
+			slideMargin:5,
+			minSlides: 1,
+			maxSlides: 1,
+			speed: 1000,
+		});
+	});
+
 
 
     // sec2 효과
