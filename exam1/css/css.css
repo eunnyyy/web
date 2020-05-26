@@ -61,11 +61,27 @@ nav{
 }
 
 /* nav end */
+#slide_wrap{
+    width:1200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.slide_box{
+    overflow: hidden;
+}
+.slide_box>ul>li>a>img{
+    display: block;
+    border: 0;
+    width: 1200px;
+    height: 300px;
+    transition: 1s;
+}
 
-.slider{
+/* .slider{
     height: 300px;
     background-color: lavender;
-}
+} */
 
 .content{
     height: 200px;

@@ -19,3 +19,13 @@ $(function(){
         $(this).children(".subNav").stop().slideUp();
     });
 });
+
+// slide
+setInterval(function(){
+    $(".slide_box").delay("2500");
+    $(".slide_box").animate({marginTop:"-300px"},"500");
+    $(".slide_box").delay("2500");
+    $(".slide_box").animate({marginTop:"-600px"},"500");
+    $(".slide_box").delay("2500");
+    $(".slide_box").animate({marginTop:"0"},"500");
+})
