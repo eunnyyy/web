@@ -25,19 +25,24 @@
 <div id="section01">
 <nav>
     <div class="menu_box">
-		<div class="logo"><a href="#section01"><img src="images/logo80.png"></a></div>		
+		<div class="logo"><a href="#section01"><img src="images/logo80.png" ></a></div>		
         <ul class="navi">
             <li><a href="#section01">메인</a></li>
             <li><a href="#section02">소개</a></li>
             <li><a href="#section03">이용안내</a></li>
             <li><a href="#section04">갤러리</a></li>
             <li><a href="#section05">오시는 길</a></li>
+
+            
         </ul>
+
+        <div class="btn" id="btn-nav">
+            <div class="btn"><a><img src="images/btn4.png"></a></div>
+        </div>
+
     </div>
-    
-    <div class="btn" id="btn-nav" function="">
-        
-    </div>
+
+
 </nav>
     <!--nav end-->
 
@@ -185,7 +190,7 @@
 <script src="js/jquery.bxslider.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    
+
     //sec4 슬라이드
    $(document).ready(function(){
 		$('.bxslider').bxSlider({
@@ -199,8 +204,6 @@
 			speed: 800,
 		});
 	});
-
-
 
     // sec2 효과
     AOS.init();
@@ -230,11 +233,17 @@
        });
     });
 
-    // 메뉴바
-    $(function(){
-        $()
+
+    //메뉴
+$(function(){
+    $(".menu").mouseover(function(){
+        $(".subNav").css("display","flex");
+        $(".subNav").stop().slideDown();
     });
-    
+    $(".menu").mouseleave(function(){
+        $(this).children(".subNav").stop().slideUp();
+    });
+});
     
 </script>
 </body>

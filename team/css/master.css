@@ -42,7 +42,8 @@
             display: flex;
         }
 		.navi{
-            margin-left: auto;            
+            margin-left: auto;    
+            display: flex;        
         }
 		.menu_box > ul{
             float:right; 
@@ -83,6 +84,19 @@
 					.menu_box li:nth-child(5) a:hover{
                         border-top:2px solid #7b9b58; 
                         padding-top:20px; color:#7b9b58;}
+
+/*--------------------------------------------- nav*/
+    .btn{
+        width: 50px;
+        padding-right: 8.5%;
+        padding-top: 12px;
+        display: none;
+    
+    }
+
+
+
+
 
 /*-----------------------------------------------  sec1 시작*/
 .top{
@@ -484,7 +498,9 @@
         padding-left:8.5%;
     }
 
-}                      
+ }  
+                 /* 767-1280
+512-0    */
 
 @media(max-width:1100px){
     .menu{
@@ -496,16 +512,21 @@
     nav{
         justify-content: space-between;
     }
-
-}      
-
-@media(max-width:1700px){
     .box{
         display: none;
     }
     .intro-title2{
         width:100%;
     }
+    .btn{
+        display: flex;
+    }
+
+
+}      
+
+@media(max-width:1700px){
+    
 
 }
 
