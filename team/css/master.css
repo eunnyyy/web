@@ -93,12 +93,12 @@
     padding-right: 8.5%;
     
 }
-    .btn-img{
-        padding-top: 15px;
-        width: 50px;
-        display: none;
-        cursor: pointer;
-    }
+.btn-img{
+    padding-top: 15px;
+    width: 50px;
+    display: none;
+    cursor: pointer;
+}
 .menu-bottom{
     width: 100%;
     height: 550px;
