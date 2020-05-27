@@ -91,9 +91,85 @@ nav{
     width: 400px;
 }
 
+/*tab*/
 .tab-contents{
     background-color: lightblue;
 }
+
+.tab-title ul{
+    display: flex;
+}
+.tab-title>ul>li:first-child{
+    background-color: lightseagreen;
+}
+.tab-title>ul>li{
+    width: 80px;
+    padding: 10px 0;
+    text-align: center;
+}
+.tab-con1{
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.tab-con2{
+    display: none;
+    padding-left: 10px;
+}
+.tab-con2>ul{
+    display: flex;
+}
+.tab-con2>ul>li{
+    padding: 10px 10px;
+}
+
+
+/* popup */
+.popup{
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    background: rgba(0,0,0,0,6);
+}
+.popup_body{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background: white;
+    border: 2px solid black;
+
+}
+.popup:active{
+    display: block;
+    opacity: 1;
+}
+.popup_top{
+    height: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.popup_top h2{
+    color: orange;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.popup_bottom{
+    text-align: right;
+}
+.팝업닫기{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
+
 .banner-contents{
     background-color: lightsalmon;
 }
