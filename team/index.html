@@ -30,11 +30,11 @@
     <div class="menu_box">
 		<div class="logo"><a href="#section01"><img src="images/logo80.png" ></a></div>		
         <ul class="navi">
-            <li class="click-after"><a href="#section01">메인</a></li>
-            <li class="click-after"><a href="#section02">소개</a></li>
-            <li class="click-after"><a href="#section03">이용안내</a></li>
-            <li class="click-after"><a href="#section04">갤러리</a></li>
-            <li class="click-after"><a href="#section05">오시는 길</a></li> 
+            <li><a href="#section01" class="click-after1">메인</a></li>
+            <li><a href="#section02" class="click-after2">소개</a></li>
+            <li><a href="#section03" class="click-after3">이용안내</a></li>
+            <li><a href="#section04" class="click-after4">갤러리</a></li>
+            <li><a href="#section05" class="click-after5">오시는 길</a></li> 
         </ul>
 
         <div class="btn" id="btn-nav">
@@ -249,8 +249,30 @@ $(function(){
         $(".navi").css("display","block");
         $(".menu-bottom").css("display", "block");
         $(".menu_box").css("background", "#edf4c8");
-    
     });
+
+
+    $(".click-after1").click(function(){
+        $(".navi").slideUp();
+        $(".menu-bottom").slideUp();
+    });
+    $(".click-after2").click(function(){
+        $(".navi").slideUp();
+        $(".menu-bottom").slideUp();
+    });
+    $(".click-after3").click(function(){
+        $(".navi").slideUp();
+        $(".menu-bottom").slideUp();
+    });
+    $(".click-after4").click(function(){
+        $(".navi").slideUp();
+        $(".menu-bottom").slideUp();
+    });
+    $(".click-after5").click(function(){
+        $(".navi").slideUp();
+        $(".menu-bottom").slideUp();
+    });
+    
 });
     
 </script>
