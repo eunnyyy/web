@@ -18,7 +18,7 @@
 .menu_box{
     width:100%; 
     height:100px; 
-    color:#fff; 
+    color:#edf4c8;
     position:fixed; 
     transition:all 0.5s ease-in-out; 
     -webkit-transition:all 0.5s ease-in-out; 
@@ -28,7 +28,7 @@
     }
 	
 	.fixed{
-        background:#fff; 
+        background:#edf4c8;
         transition:all 0.5s ease-in-out; 
         -webkit-transition:all 0.5s ease-in-out;
     }
@@ -48,7 +48,8 @@
 		.menu_box > ul{
             float:right; 
             padding:20px 0 0 0;
-            margin-right: 8.5%;           
+            margin-right: 8.5%;  
+            margin-left: 8.5%;         
             }
 			
 			.menu_box li{
@@ -86,31 +87,43 @@
                         padding-top:20px; color:#7b9b58;}
 
 /*--------------------------------------------- nav*/
-    .btn{
-        width: 50px;
-        padding-right: 8.5%;
-        padding-top: 12px;
-        display: none;
+.btn{
+    padding-top: 2%;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
     
+}
+    .btn-img{
+        padding-top: 15px;
+        width: 50px;
+        display: none;
+        cursor: pointer;
     }
+.menu-bottom{
+    width: 100%;
+    height: 550px;
+    background-color:#edf4c8;
+    position:fixed; 
+    z-index: 998;
+    display: none;
+}
 
 
-
-
-
+    
 /*-----------------------------------------------  sec1 시작*/
 .top{
     width:100%;
     display: flex;
     /* flex-direction: row; */
     /* justify-content: flex-end; */
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .top-bg1{
     width:20%;
     display: flex;
     background: #cace79;
     margin-left: 8.5%;
+    
 }
 .top-bg2{
     width:80%;
@@ -345,7 +358,7 @@
     
 }
 @media (min-width: 768px){
-  
+    
 }
 @media (min-width: 992px){
    
@@ -499,7 +512,9 @@
     }
 
  }  
-                 /* 767-1280
+
+
+ /* 767-1280
 512-0    */
 
 @media(max-width:1100px){
@@ -518,7 +533,7 @@
     .intro-title2{
         width:100%;
     }
-    .btn{
+    .btn-img{
         display: flex;
     }
 

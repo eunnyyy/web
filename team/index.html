@@ -30,20 +30,22 @@
     <div class="menu_box">
 		<div class="logo"><a href="#section01"><img src="images/logo80.png" ></a></div>		
         <ul class="navi">
-            <li><a href="#section01">메인</a></li>
-            <li><a href="#section02">소개</a></li>
-            <li><a href="#section03">이용안내</a></li>
-            <li><a href="#section04">갤러리</a></li>
-            <li><a href="#section05">오시는 길</a></li>
-
-            
+            <li class="click-after"><a href="#section01">메인</a></li>
+            <li class="click-after"><a href="#section02">소개</a></li>
+            <li class="click-after"><a href="#section03">이용안내</a></li>
+            <li class="click-after"><a href="#section04">갤러리</a></li>
+            <li class="click-after"><a href="#section05">오시는 길</a></li> 
         </ul>
 
         <div class="btn" id="btn-nav">
-            <div class="btn"><a><img src="images/btn4.png"></a></div>
+            <div class="btn-img"><a><img src="images/btn4.png"></a></div>   
         </div>
+        
 
     </div>
+
+
+    <div class="menu-bottom"></div>
 
 
 </nav>
@@ -239,13 +241,19 @@
 
     //메뉴
 $(function(){
-    $(".menu").mouseover(function(){
-        $(".subNav").css("display","flex");
-        $(".subNav").stop().slideDown();
+    $(".btn-img").click(function(){
+        $(".navi").slideToggle();
+        $(".menu-bottom").slideToggle();
+        $(".navi").css("display","block");
+        $(".menu-bottom").css("display", "block");
+        $(".menu_box").css("background", "#edf4c8");
+    
     });
-    $(".menu").mouseleave(function(){
-        $(this).children(".subNav").stop().slideUp();
-    });
+
+    // $(".click-after").click(function(){
+    //     $(".navi").fadeOut();
+    //     $(".menu-bottom").css("display", "none");
+    // });
 });
     
 </script>
