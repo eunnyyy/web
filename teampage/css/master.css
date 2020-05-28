@@ -21,8 +21,6 @@
 
 
 /*--------------------------------------------- nav*/
-
-
 .menuNav ul{
     margin: 0;
     padding: 0;
@@ -53,13 +51,6 @@
     background-color: #cace79;
     color: #FFFFFF;
 }
-
-
-
-
-
-
-
 
 .navi-bar{
     /* display: flex; */
@@ -93,7 +84,6 @@
 
 /* 767px 이하 */
 @media(max-width:767px){
-
     .menuBtn{
         padding-top: 6px;
         padding-left: 20px;
@@ -104,21 +94,16 @@
 
     }
    
-    /* 파란색 테두리 제거 */
+    /* 테두리 제거 */
     .menuBtn:focus{
         outline: none;
     }
-    
-    /* 글자 숨기기 */
-    
-
-    
     .menuNav{
     width:100%;
     padding:0;
     display: none;
     }
-    .mememe{
+    .menuNav-ul{
         width:100%;
         text-align: center;
         display: flex;
@@ -126,13 +111,12 @@
         justify-content: center;
         flex-direction: column;
     }
-    .mememe>li{
+    .menuNav-ul>li{
         width:100%;
     }
-    .ddd{
+    .menuNav-first{
         padding-top:20px;
     }
-
 }
 
 /* 768px 이상 */
@@ -149,9 +133,6 @@
         width: auto;
     }
 }
-
-
-
 
 
 
@@ -418,7 +399,6 @@
     /* sec1 */
     .top-bg1{
         width:30%;
-        /* margin-right: 8.5%; */
     }
     .top-bg1 p{
         color:#f2f5e2;
