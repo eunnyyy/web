@@ -18,6 +18,10 @@ $(function(){
     $(".menu").mouseleave(function(){
         $(this).children(".subNav").stop().slideUp();
     });
+
+    $(".mainNav").mouseover(function(){
+        $(this).children().css("background", "green");
+    })
 });
 
 // slide
@@ -34,20 +38,20 @@ setInterval(function(){
 //tab
 $(function(){
     $(".tab-btn1").click(function(){
-        $(".tab-con1").css("display", "block");
+        $(".tab-con1").css("display", "flex");
         $(".tab-con2").css("display", "none");
-        $(".tab-btn1").css("background", "lightseagreen");
-        $(".tab-btn2").css("background", "none");
-        $(".tab-con1").css("background", "lightseagreen");
+        $(".tab-btn1").css("background", "#fff");
+        $(".tab-btn2").css("background", "lightseagreen");
+        $(".tab-con1").css("background", "#fff");
         $(".tab-con2").css("background", "none");
     });
     $(".tab-btn2").click(function(){
         $(".tab-con1").css("display", "none");
-        $(".tab-con2").css("display", "block");
-        $(".tab-btn1").css("background", "none");
-        $(".tab-btn2").css("background", "lightseagreen");
+        $(".tab-con2").css("display", "flex");
+        $(".tab-btn1").css("background", "lightseagreen");
+        $(".tab-btn2").css("background", "#fff");
         $(".tab-con1").css("background", "none");
-        $(".tab-con2").css("background", "lightseagreen");
+        $(".tab-con2").css("background", "#fff");
         
     });
 });

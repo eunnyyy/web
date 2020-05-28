@@ -49,6 +49,11 @@ nav{
 .subNav{
     display: none;
     /* display: flex; */
+    position: relative;
+    z-index: 999;
+    background: lightgreen;
+    width: 400px;
+
 
 }
 .subNav ul li{
@@ -86,21 +91,31 @@ nav{
 .content{
     height: 200px;
     display: flex;
+
 }
 .content div{
     width: 400px;
+
 }
 
 /*tab*/
 .tab-contents{
-    background-color: lightblue;
+    background-color: lightgreen;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+        
 }
 
 .tab-title ul{
     display: flex;
 }
 .tab-title>ul>li:first-child{
-    background-color: lightseagreen;
+    background-color:#fff;
+}
+.tab-title>ul>li:last-child{
+    background-color:lightseagreen;
 }
 .tab-title>ul>li{
     width: 80px;
@@ -110,17 +125,29 @@ nav{
 .tab-con1{
     padding-left: 10px;
     line-height: 30px;
+    background-color:#fff;
+    display: flex;
+
+
+}
+.tab-con1-txt{
+    padding-left: 120px;
 }
 
 .tab-con2{
     display: none;
     padding-left: 10px;
+
 }
 .tab-con2>ul{
     display: flex;
 }
 .tab-con2>ul>li{
     padding: 10px 10px;
+}
+.tab-con ul{
+    padding-top: 10px;
+    padding-bottom: 6px;
 }
 
 
@@ -169,15 +196,50 @@ nav{
 
 
 
-
+/* banner */
 .banner-contents{
-    background-color: lightsalmon;
+    background-color: lightgreen;
+    padding-left: 10px;
+    padding-top: 10px;
 }
+
+/* go */
 .go-contents{
     background-color: lightgreen;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
+
+
+/* footer */
 
 footer{
     height: 100px;
     background-color: lightslategrey;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fot-logo{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 35px;
+
+}
+.copyright p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.sns{
+    padding-top: 25px;
+   
+    display: flex;
+}
+.sns div{
+    padding-right: 5px;
+    padding-left: 5px;
 }
