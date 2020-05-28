@@ -9,7 +9,7 @@
 <title>가든빌리지</title>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="js/jquery-2.1.3.js"></script>
+<!-- <script src="js/jquery-2.1.3.js"></script> -->
 
 <style>
 *{list-style:none; margin:0; padding:0;}
@@ -34,11 +34,11 @@
         <!--네비게이션 메뉴, 창 크기에 맞게 변화한다-->
         <nav class="menuNav" id="menuNav">
             <ul class="menuNav-ul">
-                <li class="menuNav-first"><a href="#section01">메인</a></li>
-                <li><a href="#section02">소개</a></li>
-                <li><a href="#section03">이용안내</a></li>
-                <li><a href="#section04">갤러리</a></li>
-                <li><a href="#section05">오시는 길</a></li>
+                <li class="menuNav-first"><a href="#section01" class="click-after1">메인</a></li>
+                <li><a href="#section02" class="click-after2">소개</a></li>
+                <li><a href="#section03" class="click-after3">이용안내</a></li>
+                <li><a href="#section04" class="click-after4">갤러리</a></li>
+                <li><a href="#section05" class="click-after5">오시는 길</a></li>
             </ul>
         </nav>
 
@@ -182,9 +182,6 @@
             <img src="images/slider4--8.jpg" alt="">
 	    </div>
     </div>
-
-
-
 </div>
 <!--section04 end-->
 
@@ -195,18 +192,30 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 
-    //네비
-    
-jQuery(document).ready(function(){
+    //네비  
+    jQuery(document).ready(function(){
         jQuery(".menuBtn").click(function(){
             jQuery(".menuNav").slideToggle();
         });
     });
 
-
-
-
-
+    $(function(){
+        $(".click-after1").click(function(){
+        $(".menuNav").slideUp();
+        });
+        $(".click-after2").click(function(){
+        $(".menuNav").slideUp();
+        });
+        $(".click-after3").click(function(){
+        $(".menuNav").slideUp();
+        });
+        $(".click-after4").click(function(){
+        $(".menuNav").slideUp();
+        });
+        $(".click-after5").click(function(){
+        $(".menuNav").slideUp();
+        });
+    });
 
 
 
@@ -239,10 +248,7 @@ jQuery(document).ready(function(){
         return false;
     });
     }
-    
 
-
-	
 	/**마우스 부드럽게 해당위치로 이동**/
 	$(function(){
 	   $('a[href^=#]').click(function() {
@@ -254,9 +260,6 @@ jQuery(document).ready(function(){
 		  return false;
        });
     });
-
-
-
 
     
 </script>
