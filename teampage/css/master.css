@@ -1,8 +1,8 @@
 @font-face { font-family: 'MapoFlowerIsland'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 #section01{
     width:100%;  background:#f2f5e2;}
