@@ -314,41 +314,121 @@
     padding-top:3%;
 } */
 
-.gal{
-   margin: 1%;
-   width: 25%;
+.photo{
+    background-color: lightgreen;
+    margin: 1%;
+    width: 100%;
 }
-.gallery-con{
+.photo1{
+    height: 350px;
+}
+.photo2{
+    height: 150px;
+}
+.photo3{
+    height: 250px;
+}
+.photo4{
+    height: 250px;
+}
+.photo5{
+    height: 500px;
+}
+.photo6{
+    height: 450px;
+}
+.photo7{
+    height: 300px;
+}
+.photo8{
+    height: 250px;
+}
+.photo9{
+    height: 350px;
+}
+.photo10{
+    height: 150px;
+}
+
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    /* padding: 0 4px; */
+    width: 83%;
     padding-left: 8.5%;
     padding-right: 8.5%;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 24%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 767px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 48%;
+    }
 
-}
-.gallery-con-left-1{
-    display: block;
-}
 
 
+    .photo1{
+        height: 200px;
+    }
+    .photo2{
+        height: 100px;
+    }
+    .photo3{
+        height: 150px;
+    }
+    .photo4{
+        height: 150px;
+    }
+    .photo5{
+        height: 300px;
+    }
+    .photo6{
+        height: 250px;
+    }
+    .photo7{
+        height: 200px;
+    }
+    .photo8{
+        height: 150px;
+    }
+    .photo9{
+        height: 200px;
+    }
+    .photo10{
+        height: 100px;
+    }
+    
+    
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 48%;
+    }
+  }
 
-.gal-1{
-    height: 220px;
-    background-color: #7b9b58;
-}
-.gal-2{
-    height: 100px;
-    background-color: #7b9b58;
-}
-.gal-3{
-    height:280px;
-    background-color: #7b9b58;
-}
-.gal-4{
-    height:250px;
-    background-color: #7b9b58;
-}
-.gal-5{
-    height:350px;
-    background-color: #7b9b58;
-}
 
 
 
