@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #222328;
+    text-decoration: none;
+}
+body{
+    color: #222328;
+    font-size: 16px;
+}
+
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+
+
+/* nav */
+.logo{
+    padding-top: 30px;
+}
+nav{
+    background: lightsteelblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+.main-menu{
+    display: flex;
+}
+.main-menu>li{
+    width:100px;
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-menu{
+    /* display: flex; */
+    display: none;
+    z-index: 999;
+
+}
+.sub-menu>ul{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sub-menu>ul>li{
+    width: 100px;
+    text-align: center;
+    
+
+}
+
+
+/* slide */
+.slide{
+    background: mediumpurple;
+    height: 300px;
+    overflow: hidden;
+}
+.slide>img{
+    width:1200px;
+    height: 300px;
+}
+.silde-img{
+    display: block;
+}
+
+
+/* tab */
+.content{
+    height: 200px;
+    display: flex;
+}
+.tab{
+    width: 400px;
+    background: olivedrab;
+    
+}
+.tab-title{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.tab-title>ul{
+   display:flex;
+   height: 30px;
+}
+
+.tab-title>ul>li{
+    width:80px;
+    padding-top:5px;
+    text-align: center;
+}
+.tab-btn1{
+    background-color: #fff;
+}
+.tab-btn2{
+    background-color: #ccc;
+}
+.tab-box{
+    display: flex;
+    position: relative;
+}
+.tab-box1{
+    position: absolute;
+    width: 380px;
+    height:150px;
+    margin-left: 10px;
+
+    background-color: #fff;
+
+}
+.tab-box1>ul{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.tab-box2{
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+    padding: 20px 20px;
+    position: absolute;
+
+    width: 320px;
+    height:110px;
+    margin-left: 10px;
+}
+/* banner */
+.banner{
+    width: 400px;
+    background:olivedrab;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* go */
+.go{
+    width: 400px;
+    background: olivedrab;
+    padding-top: 10px;
+}
+
+
+/* footer */
+.footer{
+    height: 100px;
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-bot{
+    padding-top: 30px;
+}
+
+
+.copyright{
+    padding-top: 35px;
+}
+
+.sns{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 10px;
+}

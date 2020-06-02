@@ -19,10 +19,7 @@ $(function(){
         $(this).children(".subNav").stop().slideUp();
     });
 
-    
-    $(".mainNav").mouseover(function(){
-        $(this).children().css("background", "green");
-    })
+
 });
 
 // slide
