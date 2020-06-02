@@ -322,12 +322,6 @@
 
 
 
-/* .slider-container{
-    width:56%;
-    padding-right: 22%;
-    padding-left:22%;
-    padding-top:3%;
-} */
 
 .photo{
     background-color: lightgreen;
@@ -426,7 +420,6 @@
     
   }
   
-  /* Create four equal columns that sits next to each other */
   .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
@@ -440,74 +433,6 @@
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 767px) {
-    .column {
-      -ms-flex: 48%;
-      flex: 48%;
-      max-width: 48%;
-    }
-
-    
-.row {
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    /* padding: 0 4px; */
-    width: 83%;
-    padding-left: 8.5%;
-    padding-right: 8.5%;
-  }
-  
-
-
-
-    .photo1{
-        height: 200px;
-    }
-    .photo2{
-        height: 100px;
-    }
-    .photo3{
-        height: 150px;
-    }
-    .photo4{
-        height: 150px;
-    }
-    .photo5{
-        height: 300px;
-    }
-    .photo6{
-        height: 300px;
-    }
-    .photo7{
-        height: 150px;
-    }
-    .photo8{
-        height: 150px;
-    }
-    .photo9{
-        height: 200px;
-    }
-    .photo10{
-        height: 100px;
-    }
-    
-    
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  /* @media screen and (max-width: 600px) {
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 48%;
-    }
-  } */
-
-
-
-
 /*--------------------------------------------------------  sec5 시작*/
 .map-title{
     padding-top: 140px;
@@ -757,6 +682,53 @@
         padding-right:2%;
         
     }
+
+
+    .column {
+        -ms-flex: 48%;
+        flex: 48%;
+        max-width: 48%;
+      }  
+      .row {
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      /* padding: 0 4px; */
+      width: 83%;
+      padding-left: 8.5%;
+      padding-right: 8.5%;
+      }
+      .photo1{
+          height: 200px;
+      }
+      .photo2{
+          height: 100px;
+      }
+      .photo3{
+          height: 150px;
+      }
+      .photo4{
+          height: 150px;
+      }
+      .photo5{
+          height: 300px;
+      }
+      .photo6{
+          height: 300px;
+      }
+      .photo7{
+          height: 150px;
+      }
+      .photo8{
+          height: 150px;
+      }
+      .photo9{
+          height: 200px;
+      }
+      .photo10{
+          height: 100px;
+      }
+      
     
     /* sec5 */
     .map{
