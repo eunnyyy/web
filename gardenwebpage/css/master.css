@@ -1,0 +1,789 @@
+@font-face { font-family: 'MapoFlowerIsland'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+#section01{
+    width:100%;  background:#f2f5e2;}
+
+#section02{
+	width:100%; background:#f2f5e2;}
+	
+#section03{
+	width:100%;  background:#f2f5e2;}
+	
+#section04{
+	width:100%; background:#f2f5e2;}
+	
+#section05{ 
+    width:100%;background:#f2f5e2;}
+
+
+/*--------------------------------------------- nav*/
+.menuNav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuNav ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menuNav li a{
+    display: block;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
+    line-height:70px; 
+    font-family: 'MapoFlowerIsland'; 
+    font-size:23px;
+    text-align: center;
+}
+.menuNav li a:hover{
+    border-radius: 5px;
+    background-color: #cace79;
+    color: #fff;
+}
+.navi-bar{
+    position: fixed;
+    z-index: 9999;
+    background:#f2f5e2;
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+}
+.logo-img{
+    float:left;
+    padding-left:8.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menuNav{
+    padding-right:8.5%;
+    float:right;
+    margin: 0 auto;
+}
+.menuBtn{
+    display: flex;
+    padding-left: 80%;
+    float: right;
+}
+
+
+/*-----------------------------------------------  sec1 시작*/
+.top{
+    width:100%;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    padding-top: 100px;
+}
+.top-bg1{
+    width:20%;
+    display: flex;
+    background: #cace79;
+    margin-left: 8.5%;
+    
+}
+.top-bg2{
+    width:80%;
+    height: 850px;
+    background: url(../images/title_bg_4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 8.5%;
+}
+.top-bg1 p{
+    color:#f2f5e2;
+    line-height:80px;
+    font-family: 'MapoFlowerIsland'; 
+    font-size:50px;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+/* -------------------------------------------  section02 시작*/
+.intro-top{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+.intro-bot{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+.intro-title p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:80px; 
+}
+.intro-right p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:80px; 
+    padding-left: 3%;
+}
+.intro-right{
+    display: flex;
+    width: 100%;
+}
+.intro-title2{
+    display: flex;
+    width: 50%;
+}
+.box{
+    width: 50%;
+    border-top: 2px solid #7b9b58;
+    display: flex;
+    margin-top: 40px;
+}
+.intro-bot{
+    padding-top: 3%;
+    display: block;
+}
+.design{
+    display: flex;
+}
+.design-left{
+    display: flex;
+    width:60%;
+}
+.design-right{
+    display: flex;
+    width:40%;
+    align-items: center;
+    padding-left: 10%;
+}
+.act{
+    display: flex;
+    padding-top: 5%;
+}
+.act-left{
+    display: flex;
+    width:40%;
+    align-items: center;
+    padding-left: 8%;
+}
+.act-right{
+    display: flex;
+    width:60%;
+}
+.design-left p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:40px; 
+}
+.act-right p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:40px; 
+    text-align: right;
+}
+
+
+/*sec2 원*/
+.circle{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: #f2f5e2;
+    border: 2px solid #7b9b58;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.design-right p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color:  #7b9b58;
+}
+.act-left p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color:  #7b9b58;
+}
+
+/*-------------------------------------------------  sec3 시작*/
+.mid-title{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+}
+.mid{
+    padding-top: 3%;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+
+.hover-img{
+    display: flex;
+}
+.container {
+    position: relative;
+    width: 50%;
+    display: flex;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#7b9b58;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color:  #f2f5e2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'MapoFlowerIsland'; 
+}
+.hov-title{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 10%;
+}
+.hov-txt{
+    font-size: 1.4rem;
+    line-height:30px;
+}
+.hover-top{
+    padding-right: 20%;
+    padding-bottom: 3%;
+}
+.hover-bot{
+      padding-left: 20%;
+ }
+ .hov-margin{
+     margin-right: 3%;
+ }
+
+/*--------------------------------------------------------  sec4 시작*/
+.gallery-title{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-title-title{
+    color:#000;
+    line-height:80px;
+    font-family: 'MapoFlowerIsland'; 
+    font-size:50px;
+    font-weight: 500; 
+}
+
+.more2>p{
+    color:#000;
+    line-height:40px;
+    font-family: 'MapoFlowerIsland'; 
+    font-size:30px;
+    font-weight: 400; 
+    padding: 0 5px;
+ 
+}
+.gallery-title-more{
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.photo{
+    background-color: lightgreen;
+    margin: 1%;
+    width: 100%;
+}
+.photo1{
+    height: 350px;
+    background: url(../images/photo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo2{
+    height: 150px;
+    background: url(../images/photo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo3{
+    height: 250px;
+    background: url(../images/photo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: none;
+}
+.photo4{
+    height: 250px;
+    background: url(../images/photo4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: none;
+}
+.photo5{
+    height: 500px;
+    background: url(../images/photo5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo6{
+    height: 500px;
+    background: url(../images/photo6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo7{
+    height: 250px;
+    background: url(../images/photo7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: none;
+}
+.photo8{
+    height: 250px;
+    background: url(../images/photo8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: none;
+}
+.photo9{
+    height: 350px;
+    background: url(../images/photo9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.photo10{
+    height: 150px;
+    background: url(../images/photo10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    /* padding: 0 4px; */
+    width: 83%;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    padding-top:3%;
+    
+  }
+  
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 24%;
+    padding: 0.5% 0.5%;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+/*--------------------------------------------------------  sec5 시작*/
+.map-title{
+    padding-top: 140px;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+}
+.map{
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 140px;
+}
+
+.map-txt{
+    width: 40%;
+    padding-left: 8.5%;
+    /* padding-right: 8.5%; */
+    text-align: center;
+    display: block;
+}
+.map-txt-top{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    padding-top:15%;
+}
+
+.map-txt-bot{
+    font-size: 1.4rem;
+    font-family: 'MapoFlowerIsland'; 
+    color: #000;
+    line-height:40px; 
+    padding-top: 5%;
+}
+
+
+
+
+
+/* 지도 */
+.customoverlay {position:relative;bottom:85px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
+        .customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+        .customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-family: 'MapoFlowerIsland'; font-weight:bold;overflow:hidden;background: #cace79;background: #cace79 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+        .customoverlay .title {display:block;text-align:center;background:#fff;margin-right:35px;padding:10px 15px;font-size:14px;font-weight:bold;}
+        .customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+
+
+
+/* ============================================  media  ==============*/
+@media (min-width: 576px){ 
+ 
+}
+
+/* 768px 이상 */
+@media (min-width: 768px){
+    /* 네비 */
+    .menuBtn{
+        display: none;
+    }
+    .menuNav{
+        display: block !important;
+    }
+    .menuNav li{
+        float: left;
+        width: auto;
+    }
+    
+}
+
+/* ==================================================================== */
+
+/* 767px 이하 */
+@media(max-width:767px){
+    
+
+
+    /* 네비 */
+    .menuBtn{
+        padding-top: 6px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        cursor: pointer;
+        float: right;
+
+    }
+        /* 네비 테두리 제거 */
+    .menuBtn:focus{
+        outline: none;
+    }
+    .menuNav{
+    width:100%;
+    padding:0;
+    display: none;
+    }
+    .menuNav-ul{
+        width:100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .menuNav-ul>li{
+        width:100%;
+    }
+    .menuNav-first{
+        padding-top:20px;
+    }
+    
+    
+    /* sec1 */
+    .top-bg1{
+        width:30%;
+    }
+    .top-bg1 p{
+        color:#f2f5e2;
+        line-height:60px;
+        font-family: 'MapoFlowerIsland'; 
+        font-size:40px;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .top-bg2{
+        width:70%;
+        height: 350px;
+    }
+
+    
+    /*sec2*/
+    .intro-top p{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+    }      
+    .design-right p{
+        line-height: 50px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .act-left p{
+        line-height: 50px;
+        padding-bottom: 80px;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .act-left{
+        padding-right: 5%;
+        padding-left: 0%;
+    }
+    .design-right{
+        padding-left:  5%;
+        padding-top: 60px;
+    }
+    .circle{
+         width: 12px;
+         height:12px;
+    }
+    .design-left{
+        width:100%;
+    }
+    .design-right{
+        display: flex;
+        flex-direction: column;
+        width: 8%;   
+    }
+    .design-left p{
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .act-right p{
+        width:100%;
+        text-align: left;
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .act-right{
+        width:100%;
+    }   
+    .act-left{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 8%;
+    }
+
+    /*sec3*/
+    .mid-title{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .container{
+        display: block;
+        width:100%;
+    }
+    .hover-img{
+        display: block;
+    }
+    .hover-top{
+        padding-right: 0%;
+        padding-bottom: 0%;
+    }
+    .hover-bot{
+          padding-left:0%;
+    }
+    .hov-title{
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 3%;
+    }
+    .hov-txt{
+        font-size: 15px;
+        line-height:20px;
+    }
+    .text{
+        width:80%;
+    }
+    .hov1{
+        margin-bottom: 5%;
+    }
+    .hov2{
+        margin-bottom: 5%;
+    }
+    .hov3{
+        margin-bottom: 5%;
+    }
+
+    /*sec4*/
+    .gallery-title-title{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+
+
+    .more2>p{
+        line-height:40px;
+        font-size:20px;
+        font-weight: 300; 
+     
+    }
+
+
+    .gallery-title-more{
+        height: 20px;
+        margin-top: 10px;
+    }
+    
+
+
+    .column {
+        -ms-flex: 48%;
+        flex: 48%;
+        max-width: 48%;
+      }  
+      .row {
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      /* padding: 0 4px; */
+      width: 83%;
+      padding-left: 8.5%;
+      padding-right: 8.5%;
+      }
+      .photo1{
+          height: 200px;
+      }
+      .photo2{
+          height: 100px;
+      }
+      .photo3{
+          height: 150px;
+      }
+      .photo4{
+          height: 150px;
+      }
+      .photo5{
+          height: 300px;
+      }
+      .photo6{
+          height: 300px;
+      }
+      .photo7{
+          height: 150px;
+      }
+      .photo8{
+          height: 150px;
+      }
+      .photo9{
+          height: 200px;
+      }
+      .photo10{
+          height: 100px;
+      }
+      
+    
+    /* sec5 */
+    .map{
+        display: block;
+    }
+    #map{
+        width:100%;
+        height: 450px;
+        margin-left: 0%;
+    }
+    .map-txt{
+        width:83%;
+        padding-right: 8.5%;
+    }
+    .map-title{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+    .map-txt-top{
+        font-size: 25px;
+        line-height: 45px;
+        font-weight: 500;
+        padding-top: 10%;
+    }
+    .map-txt-bot{
+        font-size: 20px;
+        line-height: 38px;
+        padding-top: 2%;
+    }
+ }  
+ /* 767-1280
+512-0    */
+
+@media(max-width:1100px){
+    .box{
+        display: none;
+    }
+    .intro-title2{
+        width:100%;
+    }
+} 
