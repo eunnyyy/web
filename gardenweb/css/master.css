@@ -311,14 +311,22 @@
     font-weight: 500; 
 }
 
-.gallery-title-more{
+.more2>p{
     color:#000;
-    line-height:80px;
+    line-height:40px;
     font-family: 'MapoFlowerIsland'; 
-    font-size:35px;
+    font-size:30px;
     font-weight: 400; 
-    cursor: pointer;
+    padding: 0 5px;
+ 
 }
+.gallery-title-more{
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
 
 
 
@@ -675,13 +683,21 @@
         line-height: 50px;
     }
 
-    .gallery-title-more{
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 50px;
-        padding-right:2%;
-        
+
+
+    .more2>p{
+        line-height:40px;
+        font-size:20px;
+        font-weight: 300; 
+     
     }
+
+
+    .gallery-title-more{
+        height: 20px;
+        margin-top: 10px;
+    }
+    
 
 
     .column {
