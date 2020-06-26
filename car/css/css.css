@@ -22,7 +22,6 @@
     color: #fff;
 }
 .main-title-2{
-
     font-family: 'Eoe_Zno_L';
     font-size: 25pt;
     font-weight: 500;
@@ -38,7 +37,87 @@
     width: 100%;
     justify-content: center;
 }
+
+/* section2 */
+.section02-title{
+    padding-top: 50px;
+}
+.section02-title h1{
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+#sg,#mc,#tb,#sb,#rf{
+    display: none;
+}
+.color-text>ul{
+    display: flex;
+}
+.color-text>ul>li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.text-content>ul>li{
+    list-style: none;
+}
+.text-content h3{
+    font-family: 'Eoe_Zno_L';
+}
+.text-content p{
+    font-family: 'Eoe_Zno_L';
+
+}
+.wc{
+    background-color: #f3f5f5;
+    border: 3px solid #ccc;
+}
+.sg{
+    background-color: #555756;
+    border: 1px solid #ccc;
+}
+.mc{
+    background-color: #273446;
+    border: 1px solid #ccc;
+}
+.tb{
+    background-color: #1a191e;
+    border: 1px solid #ccc;
+}
+.sb{
+    background-color: #3f1f23;
+    border: 1px solid #ccc;
+}
+.rf{
+    background-color: #404e49;
+    border: 1px solid #ccc;
+}
+
+.tab-img>div>img{
+    width: 80%;
+}
+.sg-txt, .mc-txt, .tb-txt, .sb-txt, .rf-txt{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:767px){
+    /* section01 */
     .main-title{
         width: 60%;
         padding-top: 0;
@@ -55,6 +134,15 @@
         font-weight: 400;
         letter-spacing: 1pt;
     }
-    
 
+
+    /* section02 */
+    .tab-img>div>img{
+        width: 100%;
+    }
+    .color-text>ul>li{
+        width: 40px;
+        height: 40px;
+        margin: 10px 10px;
+    }
 }
