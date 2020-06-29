@@ -128,8 +128,27 @@
     display: none;
 }
 
-
-
+/* section3 */
+.section03-title{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.section03-title h1{
+    font-family: 'Jeju Myeongjo', serif;
+}
+.section03-title h3{
+    font-family: 'Jeju Myeongjo', serif;
+}
+.exterior>img{
+    width: 100%;
+    margin-bottom: 1.7vh;
+}
+.modal-header h4{
+    font-family: 'NotoSerifKR';
+}
+.modal-body p{
+    font-family: 'NotoSerifKR';
+}
 
 
 
