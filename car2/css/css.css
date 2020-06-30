@@ -217,15 +217,20 @@
 .section08-title h1{
     font-family: 'Jeju Myeongjo', serif;
 }
-.hss-detail h3{
+.fold-menu li{
+    font-family: 'Jeju Myeongjo', serif;
+}
+/* .hss-detail h3{
     font-family: 'Jeju Myeongjo', serif;
 }
 .hss-detail p{
     font-family: 'NotoSerifKR';
     font-size: 15px;
     padding-top: 2vh;
-}
-
+} */
+/* .fold-detail>img{
+    width: 100%;
+} */
 
 
 @media (max-width:767px){
