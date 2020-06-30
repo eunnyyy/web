@@ -171,6 +171,8 @@
 }
 .wheel{
     margin-bottom: 2vh;
+
+    transition: all 0.5s;
 }
 .wheel p{
     font-family: 'NotoSerifKR';
@@ -182,7 +184,46 @@
     width: 60%;
 }
 .wheel>img:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+}
+
+/* section5 */
+.section05{
+    padding-bottom: 10vh;
+   padding-top: 10vh;
+}
+.section05-title{
+    padding-bottom: 20px;
+}
+.section05-title h1{
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+
+
+
+
+
+
+
+/* section */
+.section08{
+    padding-bottom: 10vh;
+   padding-top: 10vh;
+}
+.section08-title{
+    padding-bottom: 20px;
+}
+.section08-title h1{
+    font-family: 'Jeju Myeongjo', serif;
+}
+.hss-detail h3{
+    font-family: 'Jeju Myeongjo', serif;
+}
+.hss-detail p{
+    font-family: 'NotoSerifKR';
+    font-size: 15px;
+    padding-top: 2vh;
 }
 
 
