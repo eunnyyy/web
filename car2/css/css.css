@@ -141,6 +141,25 @@
     color: #404e49;
 }
 
+.wc-txt p{
+    color: #ccc;
+}
+.sg-txt p{
+    color: #555756;
+}
+.mc-txt p{
+    color: #273446;
+}
+.tb-txt p{
+    color: #1a191e;
+}
+.sb-txt p{
+    color: #3f1f23;
+}
+.rf-txt p{
+    color: #404e49;
+}
+
 .tab-img>div>img{
     width: 80%;
 }
