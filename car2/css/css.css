@@ -217,6 +217,12 @@
 .section08-title h1{
     font-family: 'Jeju Myeongjo', serif;
 }
+
+.fold-menu{
+    margin-left:20%;
+    text-decoration: none;
+    list-style: none;
+}
 .fold-menu li{
     font-family: 'Jeju Myeongjo', serif;
 }
@@ -275,5 +281,11 @@
         width: 40px;
         height: 40px;
         margin: 10px 10px;
+    }
+
+    /* section8 */
+    .fold-menu{
+        margin-left:10%;
+    
     }
 }
