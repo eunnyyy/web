@@ -92,11 +92,13 @@
     list-style: none;
 }
 .text-content h3{
-    font-family: 'Jeju Myeongjo', serif;
-    font-weight: 600;
+    font-family: 'NotoSerifKR';
+    font-weight: 500;
+    font-size: 30px;
 }
 .text-content p{
     font-family: 'NotoSerifKR';
+    font-size: 20px;
 }
 .wc-color{
     background-color: #f3f5f5;
@@ -349,7 +351,7 @@
   
   .hovereffect a, .hovereffect p {
     color: #FFF;
-    padding: 0 0;
+    padding: 10px 0;
     opacity: 0;
     font-size: 15px;
     filter: alpha(opacity=0);
@@ -534,6 +536,13 @@
         height: 40px;
         margin: 10px 10px;
     }
+    .text-content h3{
+        font-family: 'NotoSerifKR';
+        font-size: 20px;
+    }
+    .text-content p{
+        font-size: 15px;
+    }
 
 /* section03 */
     .exterior>img{
@@ -545,7 +554,6 @@
         top: 0;
         left: 1%;
     }
-
     .exterior-front{
         display: block;
     }
@@ -582,7 +590,6 @@
 /* section06 */
     .interior-1{
         display: block;
-
         margin-right: 5px;
     }
     .interior-2{
@@ -590,36 +597,16 @@
     }
     .interior-wrap{
         display: flex;
-    }
-    
-      
-   
-      
-      
+    }   
       .hovereffect h2 {
-        text-transform: uppercase;
-        text-align: center;
-        position: relative;
-        font-size: 20px;
-        background-color: transparent;
-        color: #FFF;
-        padding: 0.5rem 0;
-        opacity: 0;
-        filter: alpha(opacity=0);
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: translate3d(0,-100%,0);
-        transform: translate3d(0,-100%,0);
-      }
-      
+        font-size: 15px;
+        padding: 5px 0;    
+      }    
       .hovereffect a, .hovereffect p {
-        display: none;
+        padding: 0px 0px;
+        font-size: 10px;
       }
       
-      .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-        
-      }
-
 /* section07 */
     .interior-color-img{
         height:300px;
@@ -627,18 +614,20 @@
         margin: 10px 20px;
     }
     .interior-color h3{
-        padding-top: 120px;
+        padding-top: 140px;
         padding-left: 20px;
+        font-size: 20px;
     }
     .interior-color h4{
         padding-top: 10px;
         padding-left: 20px;
+        font-size: 15px;
     }
 
 
     /* section8 */
     .performance-txt{
-        padding-top: 10px;
+        padding-top:5px;
     }
 
     .performance-img>img{
