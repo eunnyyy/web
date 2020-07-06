@@ -460,10 +460,10 @@
     font-family: 'Jeju Myeongjo', serif;
 }
 .performance-img>img{
-    width: 100%;
+    width: 80%;
 }
 .convenience-img>img{
-    width: 100%;
+    width: 80%;
 }
 .performance-txt{
     padding-top: 150px;
@@ -611,6 +611,13 @@
 
     /* section8 */
     .performance-txt{
-        padding-top: 70px;
+        padding-top: 50px;
+    }
+
+    .performance-img>img{
+        width: 100%;
+    }
+    .convenience-img>img{
+        width: 100%;
     }
 }
