@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1>주기적으로 Ajac 요청하기</h1>
+    <p id="text"></p>
+
+
+
+    <script type="text/javascript">
+        function sendRequest(){
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    document.getElementById("text").innerHTML = this.responseText;
+                }
+            };
+            httpRequest.open("GET", "aaa.php");
+            httpRequest.send();
+        };
+        window.setInterval("sendRequest()", 500);
+    </script>
+</body>
+</html>
