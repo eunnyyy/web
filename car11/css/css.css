@@ -211,7 +211,7 @@
 
 /* section4 */
 .section04{
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
 }
 .section04-title{
     padding-bottom: 20px;
@@ -225,62 +225,16 @@
 
 
 
+
+
 /* section5 */
 .section05{
-    /* padding-bottom: 10vh;
-   padding-top: 10vh; */
+    background-color: #f2f2f2;
 }
 .section05-title{
     padding-bottom: 20px;
 }
 .section05-title h1{
-    font-family: 'Jeju Myeongjo', serif;
-}
-
-.wheel{
-    margin-bottom: 2vh;
-
-    transition: all 0.5s;
-}
-.wheel-img{
-    display: flex;
-}
-.wheel p{
-    font-family: 'NotoSerifKR';
-    padding-top: 20px;
-    font-size: 15px;
-    color: #000;
-}
-.wheel img{
-    cursor: pointer;
-    width: 60%;
-}
-
-.folding-section{
-    padding-top: 100px;
-}
-.fold-menu{
-    margin-left:20%;
-    text-decoration: none;
-    list-style: none;
-}
-.fold-menu li{
-    font-family: 'Jeju Myeongjo', serif;
-}
-
-.fold-detail>img{
-    width: 40%;
-}
-
-
-/* section6 */
-.section06{
-    background-color: #f2f2f2;
-}
-.section06-title{
-    padding-bottom: 20px;
-}
-.section06-title h1{
     font-family: 'Jeju Myeongjo', serif;
 }
 
@@ -378,8 +332,54 @@
     display: block;
 }
 
-/* section7*/
+/* section6 */
+.section06-title{
+    padding-bottom: 20px;
+}
+.section06-title h1{
+    font-family: 'Jeju Myeongjo', serif;
+}
 
+.wheel{
+    margin-bottom: 2vh;
+
+    transition: all 0.5s;
+}
+.wheel-img{
+    display: flex;
+}
+.wheel p{
+    font-family: 'NotoSerifKR';
+    padding-top: 20px;
+    font-size: 15px;
+    color: #000;
+}
+.wheel img{
+    cursor: pointer;
+    width: 60%;
+}
+
+.folding-section{
+    padding-top: 100px;
+}
+.fold-menu{
+    margin-left:20%;
+    text-decoration: none;
+    list-style: none;
+}
+.fold-menu li{
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+.fold-detail>img{
+    width: 40%;
+}
+
+
+/* section7*/
+.section07{
+    background-color: #f2f2f2;
+}
 .section07-title{
     padding-bottom: 20px;
 }
@@ -391,7 +391,7 @@
 }
 .interior-color-img{
     width: 100%;
-    height: 350px;
+    height: 320px;
 
     margin: 10px 30px;
 }
@@ -435,13 +435,13 @@
     transform: scale(1.1);
 }
 .interior-color h3{
-    padding-top: 150px;
+    padding-top: 140px;
     color: #fff;
     font-family: 'NotoSerifKR';
     padding-left: 50px;
 }
 .interior-color h4{
-    padding-top: 20px;
+    padding-top: 10px;
     color: #ccc;
     font-family: 'NotoSerifKR';
     padding-left: 50px;
@@ -450,9 +450,6 @@
 
 
 /* section 8*/
-.section08{
-    background-color: #f2f2f2;
-}
 .section08-title{
     padding-bottom: 20px;
 }
@@ -493,6 +490,7 @@
     display: flex;
 }
 
+
 /* section 9*/
 .section09{
     background-color: #f2f2f2;
@@ -518,16 +516,57 @@
 .safe2, .safe3{
     display: none;
 }
+
+.safe-btn{
+    padding-left: 27%;
+}
+.safe-btn a{
+   text-decoration: none;
+
+}
 .safe-btn>ul{
     display: flex;
 }
 .safe-btn>ul>li{
     list-style: none;
-    margin: 20px 10px;
+    margin: 20px 20px;
     cursor: pointer;
 
     font-family: 'NotoSerifKR';
-    font-size: 20px;
+    font-size: 17px;
+}
+.safe-btn>ul>li>a:hover{
+    color: #012d5e;
+}
+.safe1-btn{
+    /* color: #012d5e;
+    font-weight: 600; */
+
+    border-bottom: 2px solid #012d5e;
+    box-sizing: border-box;
+
+    transition: all 1s;
+}
+.safe1-btn>a{
+    padding-bottom: 3px;
+    color: #012d5e;
+    font-weight: 600;
+}
+.safe2-btn>a{
+    padding-bottom: 3px;
+    color: #000;
+}
+.safe3-btn>a{
+    padding-bottom: 3px;
+    color: #000;
+}
+.safe2-btn{
+    border-bottom: 2px solid #f2f2f2;
+    box-sizing: border-box;
+}
+.safe3-btn{
+    border-bottom: 2px solid #f2f2f2;
+    box-sizing: border-box;
 }
 .safe-txt>ul>li{
     list-style: none;
@@ -536,28 +575,20 @@
     width: 80%;
     padding-left: 20%;
 }
-.safe-txt h3{
+.safe-txt h4{
     font-family: 'NotoSerifKR';
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
 }
 .safe-txt p{
     font-family: 'NotoSerifKR';
     font-size:15px;
     color: #000;
 }
-.wc-color{
-    background-color: #f3f5f5;
-    border: 3px solid #ccc;
+.safe-img>div>img{
+    width: 50%;
 }
-.sg-color{
-    background-color: #555756;
-    border: 1px solid #ccc;
-}
-.mc-color{
-    background-color: #273446;
-    border: 1px solid #ccc;
-}
+
 
 
 @media (max-width:767px){
@@ -629,31 +660,13 @@
     }
     .exterior-rear-img{
         width: 80%;
-
     }
     .exterior-rear-img>img{
         margin-left: 12%;
     }
 
+
 /* section05 */
-    .wheel>img{
-        width: 100%;
-    }  
-    .folding-section{
-        padding-top: 30px;
-    }
-    .fold-detail>img{
-        width: 30%;
-    }
-
-    .fold-menu{
-        margin-left:10%;
-    }
-    .fold-detail>img{
-        width: 80%;
-    }
-
-/* section06 */
     .interior-1{
         display: block;
         margin-right: 5px;
@@ -672,11 +685,29 @@
         padding: 0px 0px;
         font-size: 10px;
       }
+
+      /* section06 */
+    .wheel>img{
+        width: 100%;
+    }  
+    .folding-section{
+        padding-top: 30px;
+    }
+    .fold-detail>img{
+        width: 30%;
+    }
+
+    .fold-menu{
+        margin-left:10%;
+    }
+    .fold-detail>img{
+        width: 80%;
+    }
+
       
 /* section07 */
     .interior-color-img{
         height:300px;
-    
         margin: 10px 20px;
     }
     .interior-color h3{
@@ -698,6 +729,28 @@
         width: 100%;
     }
     .convenience-img>img{
+        width: 100%;
+    }
+
+    /* section9 */
+    .safe-btn{
+        padding-left: 0%;
+    }
+    .safe-btn>ul>li{
+        margin: 20px 10px;
+        font-size: 17px;
+    }
+    .safe-txt{
+        width: 100%;
+        padding-left: 0%;
+    }
+    .safe-txt h4{
+        padding-bottom: 10px;
+    }
+    .safe-txt p{
+        font-size:15px;
+    }
+    .safe-img>div>img{
         width: 100%;
     }
 }
