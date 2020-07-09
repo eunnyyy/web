@@ -139,21 +139,7 @@ $(function(){
 });
 
 
-// var myswiper = new swiper('.swiper-container', {
-//     slidesPerView: 1,
-//     spaceBetween: 30,
-//     loop: true,
-//     pagination: {
-//       el: '.swiper-pagination',
-//       clickable: true,
-//     },
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-//   });
 
-// new Swiper('.swiper-container');
 
 $(function(){
     $('.safe1-btn').click(function(){
@@ -174,8 +160,8 @@ $(function(){
         $('.safe3-btn>a').css("font-weight", "500");
 
         $('.safe1-btn').css("border-bottom", "2px solid #012d5e");
-        $('.safe2-btn').css("border-bottom","2px solid #f2f2f2");
-        $('.safe3-btn').css("border-bottom","2px solid #f2f2f2");
+        $('.safe2-btn').css("border-bottom","2px solid #fff");
+        $('.safe3-btn').css("border-bottom","2px solid #fff");
     });
 
     $('.safe2-btn').click(function(){
@@ -195,9 +181,9 @@ $(function(){
         $('.safe2-btn>a').css("font-weight", "600");
         $('.safe3-btn>a').css("font-weight", "500");
 
-        $('.safe1-btn').css("border-bottom", "2px solid #f2f2f2");
+        $('.safe1-btn').css("border-bottom", "2px solid #fff");
         $('.safe2-btn').css("border-bottom","2px solid #012d5e");
-        $('.safe3-btn').css("border-bottom","2px solid #f2f2f2");
+        $('.safe3-btn').css("border-bottom","2px solid #fff");
     });
 
     $('.safe3-btn').click(function(){
@@ -217,8 +203,8 @@ $(function(){
         $('.safe2-btn>a').css("font-weight", "500");
         $('.safe3-btn>a').css("font-weight", "600");
 
-        $('.safe1-btn').css("border-bottom", "2px solid #f2f2f2");
-        $('.safe2-btn').css("border-bottom","2px solid #f2f2f2");
+        $('.safe1-btn').css("border-bottom", "2px solid #fff");
+        $('.safe2-btn').css("border-bottom","2px solid #fff");
         $('.safe3-btn').css("border-bottom","2px solid #012d5e");
     });
 });

@@ -447,13 +447,101 @@
     padding-left: 50px;
 }
 
-
-
 /* section 8*/
-.section08-title{
+.section8-title{
     padding-bottom: 20px;
 }
-.section08-title h1{
+.section8-title h1{
+    font-family: 'Jeju Myeongjo', serif;
+}
+.section8-title h3{
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+.swiper-container {
+	width: 90%;
+	height: 100%;
+  }
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+  .swiper-slide p{
+      font-size: 20px;
+      color: #000;
+      padding-bottom: 450px;
+      font-family: 'NotoSerifKR';
+  }
+.slider1{
+	width:100%;
+	height:500px;
+    background: url('../images/vip.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider2{
+	width:100%;
+    height:500px;
+    background: url('../images/vip4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider3{
+	width:100%;
+	height:500px;
+	background: url('../images/vip5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider4{
+	width:100%;
+	height:500px;
+	background: url('../images/vip1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider5{
+	width:100%;
+	height:500px;
+	background: url('../images/vip2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider6{
+	width:100%;
+	height:500px;
+	background: url('../images/vip3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* section 9*/
+.section9{
+    background-color: #f2f2f2;
+}
+.section09-title{
+    padding-bottom: 20px;
+}
+.section09-title h1{
     font-family: 'Jeju Myeongjo', serif;
 }
 .performance-img>img{
@@ -491,22 +579,15 @@
 }
 
 
-/* section 9*/
-.section09{
-    background-color: #f2f2f2;
-}
-.section09-title{
+/* section 10*/
+
+.section10-title{
     padding-bottom: 20px;
 }
-.section09-title h1{
+.section10-title h1{
     font-family: 'Jeju Myeongjo', serif;
 }
-.section09-title h3{
-    font-family: 'Jeju Myeongjo', serif;
-}
-
-
-.section02-title h1{
+.section10-title h3{
     font-family: 'Jeju Myeongjo', serif;
 }
 
@@ -539,9 +620,6 @@
     color: #012d5e;
 }
 .safe1-btn{
-    /* color: #012d5e;
-    font-weight: 600; */
-
     border-bottom: 2px solid #012d5e;
     box-sizing: border-box;
 
@@ -561,11 +639,11 @@
     color: #000;
 }
 .safe2-btn{
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 2px solid #fff;
     box-sizing: border-box;
 }
 .safe3-btn{
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 2px solid #fff;
     box-sizing: border-box;
 }
 .safe-txt>ul>li{
@@ -720,7 +798,12 @@
         padding-left: 20px;
         font-size: 15px;
     }
+
     /* section8 */
+    .swiper-container {
+        width: 100%;
+      }
+    /* section9 */
     .performance-txt{
         padding-top:0px;
     }
@@ -732,7 +815,7 @@
         width: 100%;
     }
 
-    /* section9 */
+    /* section10 */
     .safe-btn{
         padding-left: 0%;
     }
@@ -753,4 +836,5 @@
     .safe-img>div>img{
         width: 100%;
     }
+    
 }
