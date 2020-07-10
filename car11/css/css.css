@@ -454,7 +454,6 @@
   }
   .swiper-slide {
 	text-align: center;
-	font-size: 18px;
 	background: #fff;
 
 	/* Center slide text vertically */
@@ -713,11 +712,191 @@
     cursor: pointer;
 }
 
+                        /*가로 480px 이하*/
+/* ======================== media  480  ========== */
+@media (max-width:480px){
 
+    .title-font-size h1{
+        font-size: 28px;
+    }
+    .title-font-size h3{
+        font-size: 20px;
+    }
 
-                        /*가로 767px 이하*/
-/* ======================== media  767  ========== */
-@media (max-width:767px){
+    /* section01 */
+    .main-title{
+        padding-top: 3vh;
+    }
+    .main-title-1{
+        font-size:30px;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    .main-title-2{
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .main-info-bg{
+        height: 20vh;
+        margin-top: 40vh;
+    }
+    .main-info img{
+        width: 50%;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .main-info-title{
+        font-size: 12px;
+    }
+    .main-info-txt{
+        font-size: 8px;
+    }    
+    /* section02 */
+    .tab-img>div>img{
+        width: 100%;
+    }
+    .color-box>ul>li{
+        width: 25px;
+        height: 25px;
+        margin: 10px 10px;
+    }
+    .text-content h3{
+        font-size:15px;
+    }
+    .text-content p{
+        font-size: 12px;
+    }
+
+    /* section03 */
+    .exterior>img{
+        width:100%;
+        margin-bottom: 0.5vh;
+    }
+    .modal{
+        top: 0;
+        left: 1%;
+    }
+    .exterior-front{
+        display: block;
+    }
+
+    /* section04 */
+    .exterior-rear{
+        display: block;
+    }
+    .exterior-rear-img{
+        width: 80%;
+    }
+    .exterior-rear-img>img{
+        margin-left: 12%;
+    }
+
+    /* section05 */
+    .interior-1{
+        display: block;
+        margin-right: 5px;
+    }
+    .interior-2{
+        display: block;
+    }
+    .interior-wrap{
+        display: flex;
+    }   
+      .hovereffect h2 {
+        font-size: 12px;
+        padding:0% 0;    
+      }    
+      .hovereffect a, .hovereffect p {
+       display: none;
+      }
+
+    /* section06 */    
+    .fold-menu{
+        margin-left:3vw;
+    }
+    .fold-detail>img{
+        width: 50%;
+    }
+    .wheel>img{
+        width: 100%;
+    } 
+    .wheel p{
+        padding-top: 2%;
+        font-size: 10px;
+    }
+    .folding-section{
+        padding-top: 2%;
+    }
+    .fold-menu li{
+        font-size: 10px;
+    }
+
+    /* section07 */
+    .interior-color-img{
+        height:200px;
+        margin: 1% 2%;
+    }
+    .interior-color h3{
+        padding-top:60%;
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    .interior-color h4{
+        padding-top: 2%;
+        padding-left: 10%;
+        font-size: 10px;
+    }
+
+    /* section8 */
+    .swiper-slide p{
+        font-size: 12px;
+        padding-bottom: 450px;
+    }
+   
+    /* section9 */
+    .performance-txt{
+        padding-top:0px;
+    }
+    .performance-wrap{
+        display: block;
+    }
+    .performance-img>img{
+        width: 100%;
+    }
+    .convenience-img>img{
+        width: 100%;
+    }
+
+    .performance-txt>p{
+        font-size: 10px;
+    }
+    .performance-txt>h4{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .convenience-img>p{
+        font-size: 10px;
+    }
+    .convenience-img>h4{
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    /* section10 */
+   
+
+}
+
+                        /*가로 481 ~ 767px 이하*/
+/* ======================== media  481 ~ 767  ========== */
+@media (min-width:481px) and (max-width:767px){
+    .title-font-size h1{
+        font-size: 36px;
+    }
+    .title-font-size h3{
+        font-size: 24px;
+    }
 /* section01 */
     .main-title{
         padding-top: 7vh;
@@ -809,17 +988,24 @@
       }
 
 /* section06 */
-    .wheel>img{
-        width: 100%;
-    }  
-    .folding-section{
-        padding-top: 30px;
-    }
-    .fold-menu{
-        margin-left:3vw;
-    }
     .fold-detail>img{
         width: 50%;
+    }
+    .wheel>img{
+        width: 100%;
+    } 
+    .wheel p{
+        padding-top: 2%;
+        font-size: 10px;
+    }
+    .folding-section{
+        padding-top: 2%;
+    }
+    .fold-menu{
+        margin-left:15vw;
+    }
+    .fold-menu li{
+        font-size: 12px;
     }
     
 /* section07 */
@@ -842,6 +1028,11 @@
     .swiper-container {
         width: 100%;
       }
+      .swiper-slide p{
+        font-size: 20px;
+        padding-bottom: 450px;
+    }
+   
 /* section9 */
     .performance-txt{
         padding-top:0px;
@@ -855,8 +1046,23 @@
     .convenience-img>img{
         width: 100%;
     }
+
+    .performance-txt>p{
+        font-size: 10px;
+    }
+    .performance-txt>h4{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .convenience-img>p{
+        font-size: 10px;
+    }
+    .convenience-img>h4{
+        font-weight: 600;
+        font-size: 18px;
+    }
+
 /* section10 */
-   
     .safe-btn>ul>li{
         margin: 5% 3%;
         font-size: 17px;
@@ -875,23 +1081,23 @@
         width: 100%;
     }
     .safe-btn{
-        padding-left: 1vh;
+        padding-left: 0%;
     }
 
-    /* section11 */   
+/* section11 */   
     .call-sub{
         display: flex;
-        padding-left: 5vw;
+        padding-left: 18vw;
     }
     .call-main{
         padding-left:5vw;
     }
     .question-sub-1{
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
     .footer-info-wrap{
-        padding-bottom: 2vh;
+        padding-bottom: 1vh;
     }
     .footer-top{
         height: 75vh;
@@ -903,21 +1109,10 @@
         padding-top:2vh;
     }
     .footer-logo{
-        padding-top: 2vh;
+        padding-top: 1vh;
     }
-    .footer-bottom-txt p{
-        color: #ccc;
-        font-family: 'NotoSerifKR';
-        font-size: 12px;
-    }
-    .footer-bottom-menu{
-        cursor: pointer;
-    }
-    
 
 }
-
-
 
 
                         /*가로 768px 이상 ~ 1023px 이하*/
@@ -1008,8 +1203,8 @@
         padding-left:5vw;
     }
     .question-sub-1{
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
     .footer-info-wrap{
         padding-bottom: 2vh;
@@ -1077,6 +1272,10 @@
     }
 
     /* section11 */
+    .question-sub-1{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
 
 }
 

@@ -7,7 +7,7 @@
     width: 100%;
 }
 .logo{
-    padding-left: 20px;
+    padding-left: 3%;
 }
 
 .main-title{
@@ -17,15 +17,15 @@
     font-family: 'Jeju Myeongjo', serif;
     font-size:70px;
     font-weight: 800;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     color: #fff;
 }
 .main-title-2{
     font-family: 'Jeju Myeongjo', serif;
     font-size: 30px;
     font-weight: 500;
-    letter-spacing: 2px;
-    color: #ccc;
+    letter-spacing: 3px;
+    color: #fff;
 }
 
 .main-img{
@@ -37,8 +37,6 @@
     justify-content: center;
 }
 
-
-
 .main-info-bg{
     background-color: rgba(0, 0, 0, 0.7);
 
@@ -47,13 +45,13 @@
     margin-top: 40vh;
 }
 .main-info{
-    padding-top: 20px;
+    padding-top: 1vh;
     height: 20vh;
     display: flex;
 }
 .main-info img{
     width: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
 }
 .main-info p{
     font-family: 'NotoSerifKR';
@@ -173,7 +171,7 @@
     background-color: #f2f2f2;
 }
 .section03-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section03-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -210,7 +208,7 @@
 
 /* section4 */
 .section04-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section04-title h3{
     font-family: 'Jeju Myeongjo', serif;
@@ -228,7 +226,7 @@
     background-color: #f2f2f2;
 }
 .section05-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section05-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -243,7 +241,7 @@
     text-align: center;
     cursor: default;
 
-    margin-bottom:10px;
+    margin-bottom:2%;
     font-family: 'NotoSerifKR';
   }
   
@@ -291,7 +289,7 @@
     font-size: 20px;
     background-color: transparent;
     color: #FFF;
-    padding: 1rem 0;
+    padding: 3% 0;
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -302,7 +300,7 @@
   
   .hovereffect a, .hovereffect p {
     color: #FFF;
-    padding: 10px 0;
+    padding: 2% 0;
     opacity: 0;
     font-size: 15px;
     filter: alpha(opacity=0);
@@ -330,7 +328,7 @@
 
 /* section6 */
 .section06-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section06-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -338,7 +336,6 @@
 
 .wheel{
     margin-bottom: 2vh;
-
     transition: all 0.5s;
 }
 .wheel-img{
@@ -346,7 +343,7 @@
 }
 .wheel p{
     font-family: 'NotoSerifKR';
-    padding-top: 20px;
+    padding-top: 5%;
     font-size: 15px;
     color: #000;
 }
@@ -356,10 +353,11 @@
 }
 
 .folding-section{
-    padding-top: 100px;
+    padding-top: 2%;
 }
 .fold-menu{
-    margin-left:20%;
+    margin-left:15vw;
+
     text-decoration: none;
     list-style: none;
 }
@@ -377,7 +375,7 @@
     background-color: #f2f2f2;
 }
 .section07-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section07-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -389,16 +387,14 @@
     width: 100%;
     height: 320px;
 
-    margin: 10px 30px;
+    margin: 2% 5%;
 }
-
 .interior-color-img-1{
     background: url(../images/interiorcolor1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.5s;
-
 }
 .interior-color-img-2{
     background: url(../images/interiorcolor2.jpg);
@@ -406,7 +402,6 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.5s;
-
 }
 .interior-color-img-3{
     background: url(../images/interiorcolor3.jpg);
@@ -414,7 +409,6 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.5s;
-
 }
 .interior-color-img-4{
     background: url(../images/interiorcolor4.jpg);
@@ -422,7 +416,6 @@
     background-position: center;
     background-repeat: no-repeat;
     transition: all 0.5s;
-
 }
 .interior-color{
     width: 50%;
@@ -432,21 +425,21 @@
     transform: scale(1.1);
 }
 .interior-color h3{
-    padding-top: 140px;
+    padding-top: 22%;
     color: #fff;
     font-family: 'NotoSerifKR';
-    padding-left: 50px;
+    padding-left: 10%;
 }
 .interior-color h4{
-    padding-top: 10px;
+    padding-top: 2%;
     color: #ccc;
     font-family: 'NotoSerifKR';
-    padding-left: 50px;
+    padding-left: 10%;
 }
 
 /* section 8*/
 .section8-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section8-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -527,16 +520,12 @@
     background-repeat: no-repeat;
 }
 
-
-
-
-
 /* section 9*/
 .section09{
     background-color: #f2f2f2;
 }
 .section09-title{
-    padding-bottom: 20px;
+    padding-bottom: 2%;
 }
 .section09-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -548,7 +537,7 @@
     width: 90%;
 }
 .performance-txt{
-    padding-top: 150px;
+    padding-top: 10%;
 }
 .performance-txt>p{
     font-family: 'NotoSerifKR';
@@ -569,7 +558,7 @@
 }
 .performance-wrap{
     display: flex;
-    padding-bottom:10px;
+    padding-bottom:2%;
 }
 .convenience-wrap{
     display: flex;
@@ -577,9 +566,8 @@
 
 
 /* section 10*/
-
 .section10-title{
-    padding-bottom: 20px;
+    padding-bottom: 3%;
 }
 .section10-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -587,27 +575,24 @@
 .section10-title h3{
     font-family: 'Jeju Myeongjo', serif;
 }
-
 .safe2-txt, .safe3-txt{
     display: none;
 }
 .safe2, .safe3{
     display: none;
 }
-
 .safe-btn{
-    padding-left: 27%;
+    padding-left: 20vw;
 }
 .safe-btn a{
    text-decoration: none;
-
 }
 .safe-btn>ul{
     display: flex;
 }
 .safe-btn>ul>li{
     list-style: none;
-    margin: 20px 20px;
+    margin: 2% 2%;
     cursor: pointer;
 
     font-family: 'NotoSerifKR';
@@ -623,16 +608,16 @@
     transition: all 1s;
 }
 .safe1-btn>a{
-    padding-bottom: 3px;
+    padding-bottom: 1%;
     color: #012d5e;
     font-weight: 600;
 }
 .safe2-btn>a{
-    padding-bottom: 3px;
+    padding-bottom: 1%;
     color: #000;
 }
 .safe3-btn>a{
-    padding-bottom: 3px;
+    padding-bottom: 1%;
     color: #000;
 }
 .safe2-btn{
@@ -653,7 +638,7 @@
 .safe-txt h4{
     font-family: 'NotoSerifKR';
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: 2%;
 }
 .safe-txt p{
     font-family: 'NotoSerifKR';
@@ -669,7 +654,8 @@
     background-color: #f2f2f2;
 }
 .section11-title{
-    padding-bottom: 20px;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
 }
 .section11-title h1{
     font-family: 'Jeju Myeongjo', serif;
@@ -681,8 +667,8 @@
 .footer-info h4{
     font-family: 'NotoSerifKR';
     font-weight: 600;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-bottom: 1vh;
+    padding-top:2vh;
     color: #000;
     font-size: 20px;
 }
@@ -693,19 +679,17 @@
 }
 .call-sub{
     display: flex;
+    padding-left: 5vw;
 }
-.call-sub-1{
-    padding-left: 120px;
-}
-.call-sub-2{
-    padding-right: 120px;
+.call-main{
+    padding-left:5vw;
 }
 .question-sub-1{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 .footer-info-wrap{
-    padding-bottom: 30px;
+    padding-bottom: 2vh;
 }
 .footer-top{
     height: 80vh;
@@ -715,10 +699,10 @@
     height: 20vh;
 }
 .footer-bottom{
-    padding-top: 50px;
+    padding-top:2vh;
 }
 .footer-logo{
-    padding: 20px;
+    padding-top: 2vh;
 }
 .footer-bottom-txt p{
     color: #ccc;
@@ -729,91 +713,19 @@
     cursor: pointer;
 }
 
+                        /*가로 480px 이하*/
+/* ======================== media  480  ========== */
+@media (max-width:480px){
 
-
-/* ======================== media max 1199  ========== */
-@media (max-width:1199px){
-    /* section01 */
-        
-    /* section02 */
-   
-    /* section03 */
-       
-    /* section04 */
-       
-    /* section05 */
-   
-    /* section06 */
-       
-    /* section07 */
-    
-    /* section8 */
-    
-    /* section9 */
-   /* section10 */
-  
-    /* section11 */
-    
-    .call-sub{
-        display: flex;
-        margin-left: 20%;
-    }
-    .call-sub-1{
-        padding-left: 20%;
-        padding-right: 10%;
-    }
-    .call-sub-2{
-        padding-left: 10%;
-        padding-right: 20%;
-    }
-    
-    }
-
-/* ======================== media max 991  ========== */
-@media (max-width:991px){
-    /* section01 */
-      
-        
-    /* section02 */
-       
-    
-    /* section03 */
-       
-    /* section04 */
-       
-    /* section05 */
-       
-    
-    /* section06 */
-    
-    
-          
-    /* section07 */
-    
-    /* section8 */
-    
-    /* section9 */
-    
-    
-    /* section10 */
-    
-    
-    
-    /* section11 */
-    .call-sub{
-        display: flex;
-        margin-left: 0%;
-    }
-    .call-sub-1{
-        padding-left: 10%;
-        padding-right: 5%;
-    }
-    .call-sub-2{
-        padding-left: 5%;
-        padding-right: 10%;
-    }
 }
 
+                        /*가로 481px 이상 ~ 766px 이하*/
+/* ======================== media  481 ~ 766  ============= */
+@media (min-width:481px) and (max-width:766px){
+
+}
+
+                        /*가로 767px 이하*/
 /* ======================== media  767  ========== */
 @media (max-width:767px){
 /* section01 */
@@ -823,19 +735,22 @@
     .main-title-1{
         font-size:50px;
         font-weight: 700;
-        letter-spacing: 3px;
+        letter-spacing: 5px;
     }
     .main-title-2{
         font-size: 25px;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
     }
+    
     .main-info-bg{
         height: 20vh;
-        margin-top: 50vh;
+        margin-top: 40vh;
     }
     .main-info img{
-        width: 60%;
+        width: 40%;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
     .main-info-title{
         font-size: 15px;
@@ -843,6 +758,7 @@
     .main-info-txt{
         font-size: 12px;
     }    
+
 /* section02 */
     .tab-img>div>img{
         width: 100%;
@@ -895,7 +811,7 @@
     }   
       .hovereffect h2 {
         font-size: 15px;
-        padding: 5px 0;    
+        padding:1% 0;    
       }    
       .hovereffect a, .hovereffect p {
         padding: 0px 0px;
@@ -909,31 +825,26 @@
     .folding-section{
         padding-top: 30px;
     }
-    /* .fold-detail>img{
-        width: 30%;
-    } */
-
     .fold-menu{
-        margin-left:10%;
+        margin-left:3vw;
     }
     .fold-detail>img{
-        width: 80%;
+        width: 50%;
     }
-
-      
+    
 /* section07 */
     .interior-color-img{
         height:300px;
-        margin: 10px 20px;
+        margin: 1% 4%;
     }
     .interior-color h3{
-        padding-top: 140px;
-        padding-left: 20px;
+        padding-top: 70%;
+        padding-left: 10%;
         font-size: 20px;
     }
     .interior-color h4{
-        padding-top: 10px;
-        padding-left: 20px;
+        padding-top: 2%;
+        padding-left: 10%;
         font-size: 15px;
     }
 
@@ -957,7 +868,7 @@
 /* section10 */
    
     .safe-btn>ul>li{
-        margin: 20px 10px;
+        margin: 5% 3%;
         font-size: 17px;
     }
     .safe-txt{
@@ -965,7 +876,7 @@
         padding-left: 0%;
     }
     .safe-txt h4{
-        padding-bottom: 10px;
+        padding-bottom: 2%;
     }
     .safe-txt p{
         font-size:15px;
@@ -973,391 +884,204 @@
     .safe-img>div>img{
         width: 100%;
     }
-
     .safe-btn{
         padding-left: 0%;
     }
-/* section11 */
+
+/* section11 */   
     .call-sub{
         display: flex;
+        padding-left: 18vw;
     }
-    .call-sub-1{
-        padding-left: 100px;
-    }
-    .call-sub-2{
-        padding-right: 100px;
+    .call-main{
+        padding-left:5vw;
     }
     .question-sub-1{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
     .footer-info-wrap{
-        padding-bottom: 20px;
-    }  
-    .footer-bottom{
-        padding-top: 20px;
+        padding-bottom: 1vh;
     }
-    .footer-logo{
-        padding: 10px;
-    }  
     .footer-top{
-        height: 70vh;
+        height: 75vh;
     }
     .footer-bg{
-        height: 30vh;
+        height: 25vh;
     }
+    .footer-bottom{
+        padding-top:2vh;
+    }
+    .footer-logo{
+        padding-top: 1vh;
+    }
+
 }
 
 
-
-/* ======================== media max 480  ========== */
-@media (max-width:480px){
-    .title-font-size h1{
-        font-size: 28px;
-    }
-    .title-font-size h3{
-        font-size: 20px;
-    }
+                        /*가로 768px 이상 ~ 1023px 이하*/
+/* ======================== media   768 ~ 1023  ============= */
+@media (min-width:768px) and (max-width:1023px){
     /* section01 */
-    .main-title{
-        padding-top: 2vh;
-    }
-    .main-title-1{
-        font-size:40px;
-        font-weight: 700;
-        letter-spacing: 3px;
-    }
-    .main-title-2{
-        font-size: 20px;
-        font-weight: 500;
-        letter-spacing: 1px;
-    }
-    .main-info-bg{
-        height: 25vh;
-        margin-top: 30vh;
-    }
     .main-info img{
-        width: 70%;
+        width: 30%;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
     }
-    .main-info-title{
-        font-size: 12px;
-    }
-    .main-info-txt{
-        font-size: 10px;
-    }    
-        
+      
     /* section02 */
-    .tab-img>div>img{
-        width: 100%;
-    }
     .color-box>ul>li{
-        width: 25px;
-        height: 25px;
-        margin: 10px 10px;
+        width: 40px;
+        height: 40px;
+        margin:30px 10px;
     }
-    .text-content h3{
-        font-family: 'NotoSerifKR';
-        font-size: 20px;
-    }
-    .text-content p{
-        font-size: 14px;
-    }
-    
+  
     /* section03 */
        
     /* section04 */
        
     /* section05 */
-    .interior-1{
-        display: block;
-        margin-right: 3px;
-    }
-    .interior-2{
-        display: block;
-    }
-    .interior-wrap{
-        display: flex;
-    }   
+     
       .hovereffect h2 {
-        font-size: 12px;
-        padding: 1px 0;    
+        font-size: 15px;
+        padding: 1% 0;    
       }    
       .hovereffect a, .hovereffect p {
-       display: none;
+        padding: 0px 0px;
+        font-size: 10px;
       }
-       
-    
+
     /* section06 */
     .wheel>img{
         width: 100%;
     }  
-    .wheel>p{
-        font-size: 12px;
-    }
     .folding-section{
-        padding-top: 20px;
+        padding-top: 10%;
     }
-    
+
     .fold-menu{
-        margin-left:0%;
-    }
-    .fold-menu>li{
-        font-size: 12px;
+        margin-left:5vh;
     }
     .fold-detail>img{
-        width: 70%;
+        width: 50%;
     }
-
-    
-          
+            
     /* section07 */
-    .interior-color-img{
-        height:200px;
-        margin: 5px 10px;
-    }
-    .interior-color h3{
-        padding-top: 80px;
-        padding-left: 20px;
-        font-size: 15px;
-    }
-    .interior-color h4{
-        padding-top: 5px;
-        padding-left: 20px;
-        font-size: 12px;
-    }
-    
-    /* section8 */
-    .swiper-slide>p{
-        font-size: 15px;
-        padding-bottom: 250px;
-    }
-    .swiper-container{
-        width: 100%;
-        height: 100%;
-    }
-    .slider1{
-        height:300px;
-    }
-    .slider2{
-        height:300px;
-    }
-    .slider3{
-        height:300px;
-    }
-    .slider4{
-        height:300px;
-    }
-    .slider5{
-        height:300px;
-    }
-    .slider6{
-        height:300px;
-    }
-    /* section9 */
-    
-    .performance-txt>p{
-        font-size: 12px;
-    }
-    .performance-txt>h4{
-        font-size: 15px;
-        margin: 5px 0;
-    }
-    .convenience-img>p{
-        font-size: 12px;
-    }
-    .convenience-img>h4{
-        font-size: 15px;
-        margin: 5px 0;
-    }
-    .performance-wrap{
-        display: block;
-        padding-bottom:5px;
-    }
-    
-    /* section10 */
-    .safe-btn{
-        padding-left: 5%;
-    }
-    .safe-btn>ul{
-        padding-left: 0%;
-    }
-    .safe-btn>ul>li{
-        margin: 10px 7px;
-        font-size: 12px;
-    }
-    .safe-txt{
-        width: 100%;
-        padding-left: 0%;
-    }
-    .safe-txt h4{
-        padding-bottom: 5px;
-        font-size: 15px;
-    }
-    .safe-txt p{
-        font-size:12px;
-    }
-    .safe-img>div>img{
-        width: 100%;
-    }
-    
-    
-    /* section11 */
-    .footer-info h4{
-        font-weight: 500;
-        padding-bottom: 5px;
-        padding-top:10px;
-        font-size: 15px;
-    }
-    .footer-info p{
-        font-family: 'NotoSerifKR';
-        font-size:12px;
-        color: #000;
-    }
-    .call-sub{
-        display: flex;
-        margin-left: 5%;
-    }
-    .call-sub-1{
-        padding-left: 10%;
-        padding-right: 5%;
-    }
-    .call-sub-2{
-        padding-left: 5%;
-        padding-right: 10%;
-    }
-    .question-sub-1{
-        padding-top: 5px;
-        padding-bottom: 10px;
-    }
-    .footer-info-wrap{
-        padding-bottom: 10px;
-    }
-    .footer-top{
-        height: 70vh;
-    }
-    .footer-bg{
-        height: 30vh;
-    }
-    .footer-bottom{
-        padding-top: 10px;
-    }
-    .footer-logo{
-        padding-bottom: 10px;
-    }
-    .footer-bottom-txt p{
-        font-size: 8px;
-    }
-    
-}
-
-
-
-
-
-
-/* ======================== media  min 992  ========== */
-@media (min-width:992px){
-    /* section01 */
-      
-        
-    /* section02 */
-       
-    
-    /* section03 */
-       
-    /* section04 */
-       
-    /* section05 */
-       
-    
-    /* section06 */
-    
-    
-          
-    /* section07 */
-    
-    /* section8 */
-    
-    /* section9 */
-    
-    
-    /* section10 */
-    
-    
-    
-    /* section11 */
-    
-    }
-
-
-
-/* ======================== media  min 768  ========== */
-@media (min-width:768px){
-    /* section01 */
-      
-        
-    /* section02 */
-       
-    
-    /* section03 */
-       
-    /* section04 */
-       
-    /* section05 */
-       
-    
-    /* section06 */
-    .wheel>p{
-        font-size: 15px;
-    }
-    .folding-section{
-        padding-top: 20px;
-    }
-    .fold-menu{
-        margin-left:3%;
-    }
-    .fold-menu>li{
-        font-size: 15px;
-    }
-    .fold-detail>img{
-        width: 80%;
-    }
-    
-    
-          
-    /* section07 */
-    
+  
     /* section8 */
     
     /* section9 */
     .performance-txt{
-        padding-top: 70px;
+        padding-top:10%;
     }
-
     
+    .performance-img>img{
+        width: 100%;
+    }
+    .convenience-img>img{
+        width: 100%;
+    }
     
     /* section10 */
     .safe-btn{
-        padding-left: 20%;
+        padding-left: 15vh;
     }
-    .safe-btn>ul{
-        padding-left: 0%;
+    .safe-btn a{
+       text-decoration: none;
     }
-    .safe-btn>ul>li{
-        margin: 10px 10px;
+  
+    .safe-txt>ul>li{
+        list-style: none;
     }
     .safe-txt{
-        width: 100%;
-        padding-left: 0%;
-    }
-   
-   
-    
-    
-    
+        width: 90%;
+        padding-left: 10%;
+    }   
+
     /* section11 */
-    
+    .call-sub{
+        display: flex;
+        padding-left: 5vw;
     }
+    .call-main{
+        padding-left:5vw;
+    }
+    .question-sub-1{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .footer-info-wrap{
+        padding-bottom: 2vh;
+    }
+    .footer-top{
+        height:80vh;
+    }
+    .footer-bg{
+        height: 20vh;
+    }
+    .footer-bottom{
+        padding-top:2vh;
+    }
+    .footer-logo{
+        padding-top: 2vh;
+    }
+    .footer-bottom-txt p{
+        color: #ccc;
+        font-family: 'NotoSerifKR';
+        font-size: 12px;
+    }
+    .footer-bottom-menu{
+        cursor: pointer;
+    }
+    
+
+    
+}
+
+                        /*가로 1024px 이상*/
+/* ======================== media  min 1024  ================= */
+@media (min-width:1024px){
+    /* section01 */
+    .main-info img{
+        width: 20%;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+
+    /* section02 */
+    .color-box>ul>li{
+        width: 40px;
+        height: 40px;
+        margin:30px 10px;
+    }
+    
+    /* section03 */
+       
+    /* section04 */
+       
+    /* section05 */
+       
+    
+    /* section06 */
+    
+    /* section07 */
+    
+    /* section8 */
+    
+    /* section9 */
+    
+    /* section10 */
+    .safe-btn{
+        padding-left: 20vw;
+    }
+
+    /* section11 */
+    .question-sub-1{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+}
 
 
 
