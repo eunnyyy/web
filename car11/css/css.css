@@ -45,7 +45,7 @@
     margin-top: 40vh;
 }
 .main-info{
-    padding-top: 1vh;
+    padding-top: 2vh;
     height: 20vh;
     display: flex;
 }
@@ -63,6 +63,8 @@
 .main-info-txt{
     font-size: 14px;
 }
+
+
 /* section2 */
 .section02{
     padding-bottom: 5vh;
@@ -648,6 +650,10 @@
     width: 50%;
 }
 
+.safe-btn>ul{
+    padding-left: 0px;
+}
+
 /* section 11*/
 .footer-top{
     background-color: #f2f2f2;
@@ -718,9 +724,11 @@
 
     .title-font-size h1{
         font-size: 28px;
+        font-family: 'Jeju Myeongjo', serif;
     }
     .title-font-size h3{
         font-size: 20px;
+        font-family: 'Jeju Myeongjo', serif;
     }
 
     /* section01 */
@@ -867,7 +875,6 @@
     .convenience-img>img{
         width: 100%;
     }
-
     .performance-txt>p{
         font-size: 10px;
     }
@@ -884,7 +891,73 @@
     }
 
     /* section10 */
-   
+    .safe-btn>ul>li{
+        margin: 2% 3%;
+        font-size: 12px;
+    }
+    .safe-txt{
+        width: 100%;
+        padding-left: 0%;
+    }
+    .safe-txt h4{
+        padding-bottom: 2%;
+    }
+    .safe-txt p{
+        font-size:10px;
+    }
+    .safe-img>div>img{
+        width: 100%;
+    }
+    .safe-btn{
+        padding-left: 1vw;
+    }
+    .safe-btn>ul{
+        padding-left: 0px;
+    }
+
+    /* section11 */   
+    .call-sub{
+        display: flex;
+        padding-left: 10vw;
+    }
+    .call-main{
+        padding-left:5vw;
+    }
+    .question-sub-1{
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+    .footer-info-wrap{
+        padding-bottom: 1vh;
+    }
+    .footer-top{
+        height: 75vh;
+    }
+    .footer-bg{
+        height: 25vh;
+    }
+    .footer-bottom{
+        padding-top:1vh;
+    }
+    .footer-logo{
+        padding-top: 1vh;
+    }
+    .section11-title{
+        padding-top: 2vh;
+        padding-bottom: 3vh;
+    }
+    .footer-info h4{
+        font-weight: 600;
+        padding-bottom: 1vh;
+        padding-top:1vh;
+        font-size: 15px;
+    }
+    .footer-info p{
+        font-size:12px;
+    }
+    .footer-bottom-txt p{
+        font-size: 8px;
+    }
 
 }
 
@@ -978,14 +1051,14 @@
     .interior-wrap{
         display: flex;
     }   
-      .hovereffect h2 {
+    .hovereffect h2 {
         font-size: 15px;
         padding:1% 0;    
-      }    
-      .hovereffect a, .hovereffect p {
+    }    
+    .hovereffect a, .hovereffect p {
         padding: 0px 0px;
         font-size: 10px;
-      }
+    }
 
 /* section06 */
     .fold-detail>img{
@@ -1027,7 +1100,7 @@
 /* section8 */
     .swiper-container {
         width: 100%;
-      }
+    }
       .swiper-slide p{
         font-size: 20px;
         padding-bottom: 450px;
@@ -1046,7 +1119,6 @@
     .convenience-img>img{
         width: 100%;
     }
-
     .performance-txt>p{
         font-size: 10px;
     }
@@ -1111,7 +1183,23 @@
     .footer-logo{
         padding-top: 1vh;
     }
+    .section11-title{
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+    } 
+    .footer-info h4{
+        font-weight: 600;
+        padding-bottom: 1vh;
+        padding-top:2vh;
+        font-size: 20px;
+    }
+    .footer-info p{
+        font-size:15px;
+    }
 
+    .footer-bottom-txt p{
+        font-size: 12px;
+    }
 }
 
 
@@ -1124,28 +1212,28 @@
         margin-bottom: 1vh;
         margin-top: 1vh;
     }
+  
       
     /* section02 */
     .color-box>ul>li{
         width: 40px;
         height: 40px;
         margin:30px 10px;
-    }
-  
+    }  
     /* section03 */
        
     /* section04 */
        
     /* section05 */
      
-      .hovereffect h2 {
+    .hovereffect h2 {
         font-size: 15px;
         padding: 1% 0;    
-      }    
-      .hovereffect a, .hovereffect p {
+    }    
+    .hovereffect a, .hovereffect p {
         padding: 0px 0px;
         font-size: 10px;
-      }
+    }
 
     /* section06 */
     .wheel>img{
@@ -1243,6 +1331,11 @@
         margin-bottom: 1vh;
         margin-top: 1vh;
     }
+    .main-info{
+        padding-top: 2vh;
+        height: 20vh;
+        display: flex;
+    }
 
     /* section02 */
     .color-box>ul>li{
@@ -1270,7 +1363,6 @@
     .safe-btn{
         padding-left: 20vw;
     }
-
     /* section11 */
     .question-sub-1{
         padding-top: 3vh;
