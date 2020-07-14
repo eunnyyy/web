@@ -31,13 +31,13 @@
     <div class="popup">
         <div class="popup-body">
             <div class="popup-top">
-                <img src="images/logo80.png" alt="popup-logo">
-                
+                <a href="#"><img src="images/logo80.png" alt="popup-logo"></a>
             </div>
 
             <div class="popup-bottom">
                 <p class="popup-title">조별프로젝트 페이지 입니다.</p>
                 <p class="popup-txt">본 페이지에 사용된 모든 사진들은 직접 촬영하였습니다.<br><br>
+                제작 시기 : 2020.04 <br><br>
                 조원 : 배수경, 윤미진, 조성은, 황운하
                 </p>
 
@@ -258,6 +258,13 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+
+    //팝업 닫기
+    $(function(){
+        $('.popup-close').click(function(){
+            $('.popup').fadeOut();
+        });
+    });
 
     //갤러리 더보기
     $(function(){
