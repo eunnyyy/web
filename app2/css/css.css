@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-weight: normal;
+}
+
+/* @font-face { font-family: 'Eoe_Zno_L'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff'); font-weight: normal; font-style: normal; } */
+
+@font-face { font-family: 'Arita-dotum-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+p{
+    margin-bottom: 10px;
+}
+body{
+    color: #fff;
+    font-size: 100%;
+    /* font-family: sans-serif; */
+    font-family: 'Arita-dotum-Medium';
+}
+#weather_info{
+    position: relative;
+    width: 100%;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url('../images/blue2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+h1{
+    /* background: #f2f2f2; */
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    opacity: 0.8;
+    color: #f2f2f2;
+}
+section{
+    overflow: hidden;
+    color: #fff;
+    text-shadow: 1px 1px 1px #999;
+    padding: 10px 10px;
+
+    display: block;
+}
+
+/* section>figure, section >.temp{
+    float: left;
+    width: 33.3%;
+}
+section > figure >img{
+   width: 80px;
+} */
+
+aside{
+    overflow: hidden;
+    width: 25%;
+}
+aside>p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.icon{
+    font-size: 160px;
+}
+.weather-now{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+.temp{
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 3%;
+}
+.top{
+    display: block;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.w_id{
+    font-size: 30px;
+    padding-top: 2%;
+}
+.now-time h2{
+    text-align: center;
+}
+.now-time{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+/* 로딩이미지 */
+#weather_info .load_img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: none;
+}
