@@ -26,11 +26,21 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+
+    height: 100vh;
 }
 h1{
     /* background: #f2f2f2; */
-    padding: 20px;
-    font-size: 2em;
+    padding: 1%;
+    font-size: 1.5em;
+    text-align: center;
+    opacity: 0.8;
+    color: #f2f2f2;
+}
+h2{
+    /* background: #f2f2f2; */
+    padding-top: 1%;
+    font-size: 1em;
     text-align: center;
     opacity: 0.8;
     color: #f2f2f2;
@@ -57,7 +67,7 @@ aside{
     width: 25%;
 }
 aside>p{
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
 }
 .icon{
@@ -66,13 +76,17 @@ aside>p{
 .weather-now{
     width: 100%;
     text-align: center;
-    padding: 2% 0;
+    padding: 3% 0;
 }
 .temp{
     width: 100%;
     text-align: center;
     font-size: 100px;
-    padding-bottom: 3%;
+    padding-bottom: 6%;
+    padding-top: 3%;
+
+    /* border-bottom: 1px solid #fff;
+    box-sizing: border-box; */
 }
 .top{
     display: block;
