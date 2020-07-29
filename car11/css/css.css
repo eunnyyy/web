@@ -3,6 +3,9 @@
 
     @font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
 
+    @font-face { font-family: 'ON-IGothic'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eleven@1.0/ON-IGothic.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
 .section01{
     width: 100%;
 }
@@ -14,14 +17,14 @@
     padding-top: 4vh;
 }
 .main-title-1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
     font-size:70px;
     font-weight: 800;
     letter-spacing: 8px;
     color: #fff;
 }
 .main-title-2{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -54,7 +57,7 @@
     margin-bottom: 1vh;
 }
 .main-info p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     color: #ccc;
 }
 .main-info-title{
@@ -72,7 +75,7 @@
 }
 
 .section02-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .sg,.mc,.tb,.sb,.rf{
     display: none;
@@ -91,12 +94,12 @@
     list-style: none;
 }
 .text-content h3{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-weight: 500;
     font-size: 30px;
 }
 .text-content p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size: 20px;
 }
 .wc-color{
@@ -176,10 +179,10 @@
     padding-bottom: 3%;
 }
 .section03-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .section03-title h3{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .exterior>img{
     width: 100%;
@@ -194,10 +197,10 @@
 }
 
 .modal-header h4{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
 }
 .modal-body p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
 }
 .modal-backdrop{
     position: relative !important;
@@ -213,7 +216,7 @@
     padding-bottom: 3%;
 }
 .section04-title h3{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .exterior-rear{
     display: flex;
@@ -231,7 +234,7 @@
     padding-bottom: 3%;
 }
 .section05-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 
 .hovereffect {
@@ -244,7 +247,7 @@
     cursor: default;
 
     margin-bottom:2%;
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
   }
   
   .hovereffect .overlay {
@@ -333,7 +336,7 @@
     padding-bottom: 3%;
 }
 .section06-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 
 .wheel{
@@ -344,7 +347,7 @@
     display: flex;
 }
 .wheel p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     padding-top: 5%;
     font-size: 15px;
     color: #000;
@@ -364,7 +367,7 @@
     list-style: none;
 }
 .fold-menu li{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 
 .fold-detail>img{
@@ -380,7 +383,7 @@
     padding-bottom: 3%;
 }
 .section07-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .interior-color-wrap{
     display: flex;
@@ -429,13 +432,13 @@
 .interior-color h3{
     padding-top: 22%;
     color: #fff;
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     padding-left: 10%;
 }
 .interior-color h4{
     padding-top: 2%;
     color: #ccc;
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     padding-left: 10%;
 }
 
@@ -444,10 +447,10 @@
     padding-bottom: 3%;
 }
 .section8-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .section8-title h3{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 
 .swiper-container {
@@ -476,7 +479,7 @@
       font-size: 20px;
       color: #000;
       padding-bottom: 450px;
-      font-family: 'NotoSerifKR';
+      font-family: 'ON-IGothic';
   }
 .slider1{
 	width:100%;
@@ -529,7 +532,7 @@
     padding-bottom: 2%;
 }
 .section09-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .performance-img>img{
     width: 90%;
@@ -541,20 +544,20 @@
     padding-top: 10%;
 }
 .performance-txt>p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size: 15px;
 }
 .performance-txt>h4{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-weight: 600;
 }
 .convenience-img>p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size: 15px;
     color: #000;
 }
 .convenience-img>h4{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-weight: 600;
 }
 .performance-wrap{
@@ -571,10 +574,10 @@
     padding-bottom: 3%;
 }
 .section10-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .section10-title h3{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 .safe2-txt, .safe3-txt{
     display: none;
@@ -596,7 +599,7 @@
     margin: 2% 2%;
     cursor: pointer;
 
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size: 17px;
 }
 .safe-btn>ul>li>a:hover{
@@ -637,12 +640,12 @@
     padding-left: 20%;
 }
 .safe-txt h4{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-weight: 600;
     padding-bottom: 2%;
 }
 .safe-txt p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size:15px;
     color: #000;
 }
@@ -663,14 +666,14 @@
     padding-bottom: 3vh;
 }
 .section11-title h1{
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'ON-IGothic';
 }
 
 .footer-img>img{
     width: 80%;
 }
 .footer-info h4{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-weight: 600;
     padding-bottom: 1vh;
     padding-top:2vh;
@@ -678,7 +681,7 @@
     font-size: 20px;
 }
 .footer-info p{
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size:15px;
     color: #000;
 }
@@ -711,7 +714,7 @@
 }
 .footer-bottom-txt p{
     color: #ccc;
-    font-family: 'NotoSerifKR';
+    font-family: 'ON-IGothic';
     font-size: 12px;
 }
 .footer-bottom-menu{
@@ -724,11 +727,11 @@
 
     .title-font-size h1{
         font-size: 28px;
-        font-family: 'Jeju Myeongjo', serif;
+        font-family: 'ON-IGothic';
     }
     .title-font-size h3{
         font-size: 20px;
-        font-family: 'Jeju Myeongjo', serif;
+        font-family: 'ON-IGothic';
     }
 
     /* section01 */
@@ -1011,7 +1014,7 @@
         margin: 10px 10px;
     }
     .text-content h3{
-        font-family: 'NotoSerifKR';
+        font-family: 'ON-IGothic';
         font-size: 20px;
     }
     .text-content p{
@@ -1311,7 +1314,7 @@
     }
     .footer-bottom-txt p{
         color: #ccc;
-        font-family: 'NotoSerifKR';
+        font-family: 'ON-IGothic';
         font-size: 12px;
     }
     .footer-bottom-menu{
