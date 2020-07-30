@@ -4542,6 +4542,16 @@
 			
 		}
 
+		@media screen and (max-width: 480px) {
+			.more-btn p{
+				font-size: 0.7rem;
+				font-weight: 300;
+			}
+	
+			
+		}
+
+
 /* main-box */
 		.main-box{
 			width: 80%;
