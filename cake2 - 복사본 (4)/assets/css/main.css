@@ -3930,9 +3930,6 @@
 					#header > a:last-child {
 						padding-right: 1em;
 					}
-
-					
-			
 			}
 		#header.reveal {
 			-moz-animation: reveal-header 0.5s ease;
@@ -3971,9 +3968,6 @@
 				#header > h1 a {
 					font-size: 1em;
 				}
-
-				
-
 	}
 	@media screen and (max-width: 480px) {
 		#header {
@@ -4464,7 +4458,7 @@
 		.footer-sns{
 			width: 33.3%;
 			margin: 1% 0;
-			padding: 1% 1%;
+			padding: 0% 1%;
 		}
 	
 		@media screen and (max-width: 736px) {
@@ -4490,7 +4484,8 @@
 				padding: 0% 1%;
 			}
 		
-			.footer-address p{				
+			.footer-address p{
+				
 				text-align: center;
 			}
 	
@@ -4499,53 +4494,6 @@
 				margin: 1% 0;
 				padding: 0% 1%;
 			}
-		}
+		
 
-/* More btn */
-		.more-btn{
-			width: 20%;
-			height:30%;
-			border: 1px solid #f3b359;
-			border-radius: 2%;
-			box-sizing: border-box;
-			margin: 1% 40%;
-			cursor: pointer;
-
-		}
-		/* .more-btn a{
-			text-decoration: none;
-			font-family: 'MapoDacapo'; 
-			color: #49413d;
-		} */
-		.more-btn p{
-			text-decoration: none;
-			font-family: 'MapoDacapo'; 
-			color: #49413d;
-			font-size: 20px;
-			font-weight: 300;
-		}
-
-		.more-btn:hover{
-			background: #f3b359;
-			color: #fff;
-		}
-		.more-btn:hover>p{
-			color: #fff;
-		}
-
-		@media screen and (max-width: 736px) {
-			.more-btn p{
-				font-size: 1rem;
-				font-weight: 300;
-			}
-	
-			
-		}
-
-/* main-box */
-		.main-box{
-			width: 80%;
-			height: 300px;
-
-			background: url('../images/main-box.jpg');
 		}

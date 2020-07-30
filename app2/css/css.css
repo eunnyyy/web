@@ -82,11 +82,11 @@ aside>p{
     width: 100%;
     text-align: center;
     font-size: 100px;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
     padding-top: 3%;
 
-    /* border-bottom: 1px solid #fff;
-    box-sizing: border-box; */
+    border-bottom: 1px solid #f2f2f2;
+    box-sizing: border-box;
 }
 .top{
     display: block;
@@ -95,6 +95,7 @@ aside>p{
     display: flex;
     width: 100%;
     text-align: center;
+    padding-top: 3%;
 }
 .w_id{
     font-size: 30px;
