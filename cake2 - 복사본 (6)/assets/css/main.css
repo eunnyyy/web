@@ -59,9 +59,6 @@
 
 	.logo>a>img{
 		width: 8%;
-		position: relative;
-		/* left: -50%; */
-
 	}
 
 /* Box Model */
@@ -3845,34 +3842,6 @@
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
-		/* text-align: right; */
-		text-align: left;
-		top: 0;
-		width: 100%;
-		z-index: 10001;
-	}
-
-		#header > .logo {
-			display: inline-block;
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-		}
-
-
-	/* #header {
-		background:#fff;
-		color: #a6a6a6;
-		cursor: default;
-		height: 3.25em;
-		left: 0;
-		line-height: 3.25em;
-		position: fixed;
-		position: relative;
 		text-align: right;
 		top: 0;
 		width: 100%;
@@ -3882,14 +3851,15 @@
 		#header > .logo {
 			display: inline-block;
 			height: inherit;
-			left: 1.25em;
-			left: 0%;
+			/* left: 1.25em; */
+			left: -15%;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
+			/* position: absolute; */
 			position: absolute;
 			top: 0;
-		} */
+		}
 
 			#header > .logo a {
 				font-size: 1.25em;
@@ -4666,55 +4636,3 @@
 	
 			
 		}
-
-/* nav-menu */
-.nav-menu{
-	width: 80%;
-	display: flex;
-
-	padding-left: 25%;
-
-}
-.nav-menu a{
-	text-decoration: none;
-	color: #49413d;
-	font-family: 'MapoDacapo';
-	font-size: 1.5rem;
-}
-.nav-menu li{
-	list-style: none;
-	padding: 0% 8%;
-}
-.nav-menu a:hover{
-	color: #f3b359;
-}
-
-
-
-
-#header>a{
-	display: none;
-	z-index: 9999999;
-	text-align: right;
-}
-
-
-
-@media screen and (max-width: 736px) {
-	/* .logo>a>img{
-		left: -90%;
-	} */
-	.nav-menu{
-		display: none;
-	}
-	#header>a{
-		display: block;
-	}
-
-}
-
-
-@media screen and (max-width: 480px) {
-	
-	
-}
