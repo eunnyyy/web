@@ -4406,12 +4406,12 @@
 				background-attachment: scroll;
 			}
 			.banner > article h2 {
-				font-size: 2.5rem;
+				font-size: 2rem;
 				margin-bottom: 10%;
 			}
 			.banner > article p {
 				font-size: 1rem;
-				padding-bottom: 1.75rem;
+				padding-bottom: 1.5rem;
 				letter-spacing: .25rem;
 			}
 		}
@@ -4425,12 +4425,12 @@
 				margin-bottom: 10%;
 			} */
 			.banner > article h2 {
-				font-size: 2rem;
+				font-size: 1.5rem;
 				margin-bottom: 15%;
 			}
 
 			.banner > article p {
-				font-size: 0.7rem;
+				font-size: 0.5rem;
 				padding-bottom: 1.5rem;
 				letter-spacing: 0rem;
 			}
