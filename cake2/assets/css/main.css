@@ -3988,7 +3988,8 @@
 			box-shadow: none;
 			overflow: hidden;
 			position: absolute;
-			top: 1.5em;
+			/* top: 1.5em; */
+			top: 0.1%;
 		}
 			#header.alt h1 {
 				left: 2.5em;
