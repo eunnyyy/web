@@ -1933,12 +1933,12 @@
 
 			.box header p {
 				/* text-transform: uppercase; */
-				font-size: 1.5rem;
+				font-size: 1.4rem;
 				font-weight: 300;
 			}
 
 			.box-cake-info{
-				font-size: 0.7rem;
+				font-size: 0.6rem;
 			}
 		
 		}
@@ -3490,10 +3490,8 @@
 
 			.wrapper.style3 h2{
 				font-size: 1.2rem;
-				font-weight: 200;
-				
+				font-weight: 200;			
 			}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4426,7 +4424,7 @@
 				margin-bottom: 10%;
 			} */
 			.banner > article h2 {
-				font-size: 1.5rem;
+				font-size: 1.4rem;
 				margin-bottom: 15%;
 			}
 
@@ -4588,7 +4586,7 @@
 		
 		@media screen and (max-width: 480px) {
 			.more-btn p{
-				font-size: 0.7rem;
+				font-size: 0.6rem;
 				font-weight: 300;
 			}			
 		}
@@ -4669,7 +4667,7 @@
 	
 			.main-box-txt{
 				color: #fff;
-				font-size: 0.5rem;
+				font-size: 0.6rem;
 			}
 	
 			
