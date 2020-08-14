@@ -5119,28 +5119,6 @@
 		}
 
 /* ======================  about page  ============================= */
-.about-sec1{
-	position: relative;
-	display: block;
-}
-.about-sec1-bg{
-	position: absolute;
-	width: 100%;
-	height: 300px;
-	background-color: #ccc;
-}
-.about-sec1-title{
-	position: relative;
-}
-.about-sec1-cont{
-	position: absolute;
-	display: flex;
-	width: 100%;
-}
-
-.about-sec1-cont-img{
-	/* margin-left: 1%; */
-}
 .about-sec1-cont-img img{
 	width: 100%;
 }

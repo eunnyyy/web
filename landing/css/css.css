@@ -232,6 +232,7 @@ video{
         font-size: 30px;
         color: #fff;
         padding: 2% 0%;
+        text-shadow: 1px 1px 1px #999;
 }
 
 .event-subtitle-2 p{
@@ -239,6 +240,7 @@ video{
         font-size: 20px;
         color: #fff;
         padding: 1% 0%;
+        text-shadow: 1px 1px 1px #999;
 }
 .how-title{
     padding-top: 5%;
@@ -272,6 +274,7 @@ video{
 }
 .detail-example img{
     width: 70%;
+    shadow: 1px 1px 1px #999;
 }
 .detail-txt img{
     width: 70%;
@@ -295,10 +298,11 @@ video{
     color: #fff;
 }
 .detail p{
-    font-family: 'S-CoreDream-4Regular';
+    font-family: 'S-CoreDream-3Light';
     font-size:20px;
-    color: #2f2f2f;
+    color: #fff;
     padding: 2% 0%;
+    text-shadow: 1px 1px 1px #999;
 }
 .detail-txt-1, .detail-txt-2, .detail-txt-3, .detail-txt-4{
     padding: 1% 0%;
