@@ -5019,10 +5019,7 @@
 		}
 
 		@media screen and (max-width: 736px) {
-	
-				
 			
-		
 		}
 
 
@@ -5068,7 +5065,6 @@
 
 /* ======================  order page  ============================= */
 .order-align{
-	
 	width: 100%;
 }
 .order-btn a.info {
@@ -5121,4 +5117,34 @@
 /* ======================  about page  ============================= */
 .about-sec1-cont-img img{
 	width: 100%;
+}
+.about-sec1{
+	display: block;
+}
+.about-title{
+	font-size:20px;
+	color: #49413d;
+	
+	font-family: 'MapoDacapo';
+	text-align: center;
+}
+
+.box-cake-info{
+	font-family: 'MapoGoldenPier';
+	color: #49413d;
+	font-size: 16px;
+	font-weight: 300;
+
+	margin-bottom: 2%;
+}
+
+@media screen and (max-width: 736px) {
+	
+	.order-btn a.info {
+		
+		font-size: 8px;
+
+		}
+
+
 }
