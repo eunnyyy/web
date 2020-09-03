@@ -5546,13 +5546,12 @@ a{
 	font-size:16px;
 	color: #49413d;
 	padding: 2% 0%;
-	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 }
-.cake-detail-bottom-btn{
-	padding-top: 5%;
-}
+
 .cake-detail-bottom-btn a{
 	text-align: center;
+	
 }
 .cake-detail-bottom-btn-wrap{
 	padding: 2% 0%;
@@ -5563,7 +5562,7 @@ a{
 		font-size:12px;
 		color: #49413d;
 		padding: 2%;
-		border-bottom: 1px solid #ccc;
+		border-top: 1px solid #ccc;
 	}
 	/* .cake-detail-bottom-btn{
 		display: none;
