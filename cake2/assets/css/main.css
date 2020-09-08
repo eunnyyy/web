@@ -4476,7 +4476,8 @@
 
 	#footer {
 		padding: 2% 0 1% 0 ;
-		background: #f2ebe1;
+		background: #fff;
+		border-top: 1px solid #f2ebe1;
 		text-align: center;
 	}
 		#footer a {
@@ -4484,7 +4485,7 @@
 			/* font-size: 1rem; */
 		}
 			#footer a:hover {
-				color: #FFF;
+				color: #f3b359;
 			}
 
 		/* #footer .copyright {
@@ -4801,7 +4802,7 @@
 	color: #f2ebe1;
 	text-align:center;
 	position:relative;
-	font-size:18px;
+	font-size:16px;
 	/* background:rgba(0,0,0,0.6); */
 	-webkit-transform:translatey(-100px);
 	-ms-transform:translatey(-100px);
@@ -4809,24 +4810,28 @@
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	/* padding:10px; */
-	padding-top: 10%;
+	padding-top: 5%;
+	padding-left: 7%;
+	padding-right: 7%;
+	line-height: 23px;
 
 	font-family: 'MapoGoldenPier';
 	}
+
 	
 	.hovereffect a.info {
 	text-decoration:none;
 	display:inline-block;
 	/* text-transform:uppercase; */
 	color:#f3b359;
-	border:1px solid #f3b359;
+	/* border:1px solid #f3b359; */
 	background-color:transparent;
 	opacity:0;
 	filter:alpha(opacity=0);
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
 	/* margin:50px 0 0; */
-	margin-top: 5%;
+	margin-top: 2%;
 	padding:7px 14px;
 
 	font-family: 'MapoDacapo';
@@ -4838,9 +4843,9 @@
 	}
 	
 	.hovereffect:hover img {
-	-ms-transform:scale(1.2);
-	-webkit-transform:scale(1.2);
-	transform:scale(1.2);
+	-ms-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
 	}
 	
 	.hovereffect:hover .overlay {
@@ -4864,9 +4869,8 @@
 
 	@media screen and (max-width: 736px) {
 		.hovereffect h2 {
-			
 			font-size:12px;
-			
+			padding-top: 10%;
 			}
 
 			.hovereffect a.info {
@@ -4874,11 +4878,31 @@
 				font-size: 12px;
 		
 				}
-		
+				.review-wrap{
+					display: block;
+				}
+
+
+				.review{
+					padding: 0 0;
+					margin-bottom: 2%;
+				}
 	
 	}
 	
+/* ================ review ===  */
+.review{
+	padding: 0 1.2%;
+	margin-bottom: 2%;
+}
 
+
+.review-box{
+	margin: 2% 0;
+}
+.review-wrap{
+	display: flex;
+}
 
 /* view-more */
 	.view-more a.info {
@@ -5608,6 +5632,10 @@ a{
 
 	font-family: 'MapoGoldenPier';
 }
+.space-detail-txt-4{
+	font-size:16px;
+	font-family: 'MapoGoldenPier';
+}
 
 .space-2-wrap{
 	padding-bottom: 5%;
@@ -5615,12 +5643,24 @@ a{
 }
 @media screen and (max-width: 736px) {
 	.space-subtitle{
-		/* font-size:25px; */
+		font-size:18px;
 		padding-top: 2%;
-		padding-bottom:2% ;
+		padding-bottom:1%;
+	}
+	.space-detail-txt-2{
+		font-size:12px;
+
 	}
 	.space-detail-txt-3{
-		padding-top: 2%;
+		font-size:12px;
+
+		padding-top: 1%;
+	
+
+	}
+	.space-detail-txt-4{
+		font-size:12px;
+	
 	}
 
 	.space-2-wrap{
@@ -5628,3 +5668,5 @@ a{
 	}
 
 }
+
+
