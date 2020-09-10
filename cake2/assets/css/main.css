@@ -4607,7 +4607,7 @@
 
 /* main-box */
 		.main-box{
-			background-image: url(../../images/main-box-6.jpg);
+			background-image: url(../../images/main-box-99.jpg);
 			background-repeat: no-repeat;
 			
 			/* background-attachment: fixed; */
@@ -4643,6 +4643,10 @@
 			.main-box-txt{
 				font-size: 8px;
 			}	
+			.main-box{
+				background-image: url(../../images/main-box-88.jpg);
+							
+			}
 		}
 
 		
@@ -5213,8 +5217,9 @@
 	font-weight: 600;
 	margin-bottom: 5%;
 }
-
-
+.about-sec2-bg{
+	padding-top: 2%;
+}
 @media screen and (max-width: 736px) {
 	.about-title-2{
 		font-size:16px;
@@ -5655,6 +5660,7 @@ a{
 .space-detail-txt-4{
 	font-size:16px;
 	font-family: 'MapoGoldenPier';
+	color: #49413d;
 }
 
 .space-2-wrap{
