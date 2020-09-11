@@ -5425,7 +5425,12 @@ a{
 
 
 .cakes-cont-img:hover{
-	background: #f2ebe1;
+	background: rgba(242, 235, 225, 0.7);
+	/* -webkit-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out; */
+
+	-webkit-transition:all .4s linear;
+	transition:all .4s linear;
 }
 
 
@@ -5667,6 +5672,11 @@ a{
 	padding-bottom: 5%;
 	display: flex;
 }
+
+.space-sec2{
+	padding-top: 5%;
+}
+
 @media screen and (max-width: 736px) {
 	.space-subtitle{
 		font-size:18px;
@@ -5719,7 +5729,7 @@ a{
 	opacity:0;
 	background-color:rgba(0,0,0,0.5);
 	-webkit-transition:all .4s ease-in-out;
-	transition:all .4s ease-in-out
+	transition:all .4s ease-in-out;
 	}
 	
 	.hovereffect2 img {
