@@ -4614,7 +4614,8 @@
 			background-position: center;
 			/* position: relative; */
 		
-			/* background: rgba(255, 255, 255, 0.075); */			
+			/* background: rgba(255, 255, 255, 0.075); */	
+			margin-bottom: 10px;		
 		}
 		
 		.main-box-title{
